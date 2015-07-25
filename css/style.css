@@ -1,0 +1,159 @@
+@charset "utf-8";
+/*
+	www.adamalsegard.se
+	copyright Adam Alsegård
+*/
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arvo"), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff"); }
+
+/* general styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+ /* needed for container min-height */}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url(../img/bg_pic-1.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home .glyphicon {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 5px;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 10px;
+}
+#home .glyphicon:hover {
+  color: #707070;
+}
+
+#about {
+  background-color: #003300;
+  color: #ffffff;
+}
+
+#sec3 {
+  background: url(../img/slide-1.jpg) no-repeat center center scroll; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#portfolio {
+  background: url(../img/bg_pic-2.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1D1914;
+  color: #ffffff;
+}
+
+#sec5 {
+  background: url(../img/slide-2.jpg) no-repeat center center scroll; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+#involvements {
+  background: url(../img/bg_pic-3.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color: #FFAA70;
+  color: #ffffff;
+}
+
+
+#CV {
+
+}
+
+#contact {
+  background: url(../img/side_pic-2.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+
+
+
+
