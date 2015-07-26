@@ -1,0 +1,241 @@
+ @font-face { font-family: Unispace; src: url('http://ff.static.1001fonts.net/u/n/unispace.regular.ttf'); } 
+
+body {
+	background-image:url('../images/fresh_snow_mod.png');
+	
+}
+
+h1, h2, h3 {
+	font-family: "Unispace";
+}
+
+h1 {
+	font-size: 90pt;
+	text-shadow: 0px 0px 15px black;
+	display: inline-block;
+	padding-left: 25px;
+}
+
+table {
+	margin-top: 22px;
+	margin-left: 50%;
+	display: inline-block;
+}
+
+p, td {
+	line-height: 1.5;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+#headerLinks{
+	float: right;
+	padding-top: 25px;
+	padding-right: 60px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.invert:hover {
+	-webkit-filter: invert(100%);
+	text-shadow: 0px 0px 20px black;
+	-webkit-transition: all 0.2s ease;
+}
+
+#layoutMiddle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: rgba(248, 248, 255, 0.8);
+
+}
+
+.half {
+	float: left;
+	width: 40%;
+	height: 100%;
+	margin-left: 4%;
+	margin-right: 5%;
+}
+
+p.logo {
+	font-size: 20pt;
+}
+
+img.logo {
+	width: 50%;
+	height: auto;
+	-webkit-filter: invert(100%);
+}
+
+
+
+/* Animation */
+
+h1#title {
+    position: relative;
+
+    -moz-animation-name: animTitle;
+    -moz-animation-iteration-count: once;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 0.5s;
+
+    -webkit-animation-name: animTitle;
+    -webkit-animation-iteration-count: once;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 0.5s;
+}
+div#headerLinks{
+	position: relative;
+
+	-moz-animation-name: animLinks;
+    -moz-animation-iteration-count: once;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 1.0s;
+
+    -webkit-animation-name: animLinks;
+    -webkit-animation-iteration-count: once;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 1.0s;
+}
+span#animatedZero {
+	position: relative;
+
+	-moz-animation-name: animZero;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 2.0s;
+
+    -webkit-animation-name: animZero;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 2.0s;
+
+}
+
+@-moz-keyframes animTitle {
+    from {
+        left: -600px;
+    }
+    to {
+        left: 0px;
+    }
+}
+@-webkit-keyframes animTitle {
+    from {
+        left: -600px;
+    }
+    to {
+        left: 0px;
+    }
+}
+@-moz-keyframes animLinks {
+    from {
+        right: -1000px;
+    }
+    to {
+        right: 0;
+    }
+}
+@-webkit-keyframes animLinks {
+   from {
+        right: -1000px;
+    }
+    to {
+        right: 0;
+    }
+}
+@-moz-keyframes animZero {
+     0% {
+        color: black;
+        text-shadow: black;
+    }
+
+    25% {
+    	color: red;
+    	text-shadow: 0px 0px 20px red;
+    }
+
+    50% {
+    	color: red;
+    	text-shadow: 0px 0px 20px red;
+    }
+
+    75% {
+        color: black;
+        text-shadow: black;
+    }
+
+    100% {
+    	color: black;
+    	text-shadow: black;
+    }
+}
+@-webkit-keyframes animZero {
+     0% {
+        color: black;
+    }
+
+    25% {
+    	color: red;
+    	text-shadow: 0px 0px 20px red;
+    }
+
+    50% {
+    	color: red;
+    	text-shadow: 0px 0px 20px red;
+    }
+
+    75% {
+        color: black;
+    }
+
+    100% {
+    	color: black;
+    }
+}
+
+
+
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
