@@ -1,6 +1,6 @@
 // Angular functions
 var myApp = angular.module('myApp', []);
-/*
+
 myApp.controller('portfolio', function($scope) {
     $scope.project = [
       {title:'Trygga', 
@@ -40,12 +40,18 @@ myApp.controller('portfolio', function($scope) {
   	  video: ''} 
   	  ];
   });
-*/
+/*
 myApp.controller('portfolio', function($scope, $http) {
     $http({ method: 'GET', url: 'https://adamalsegard.github.io/listor/portfolio.php'})
-    .then(function successCallback(reponse){ $scope.project = reponse.records}, 
-    	function errorCallback(response){ console.log(response)});
-});
+    .then(function successCallback(response){ 
+    	console.log(response); 
+    	var json = JSON.parse(response.records);
+    	console.log(json);
+    	$scope.project = json.records;
+    	console.log($scope.project) }, 
+    	function errorCallback(response){ 
+    		console.log(response); });
+});*/
 
 myApp.filter('rawHtml', ['$sce', function($sce){
   return function(val) {
