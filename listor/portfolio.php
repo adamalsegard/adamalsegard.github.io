@@ -18,7 +18,7 @@
 
 	{
 	title:'Domescape', 
-      	description: "A simple 3D-landscape for domes created with SGCT and cspice (which calculates the sun's correct position relative Norrköping, Sweden). The user can walk around in the landscape and speed up/down time or set a specific time to change the sun's position. Created as a group-project in the course 3D- Computer Graphics.",
+      	description: "A simple 3D-landscape for domes created with SGCT and cspice (which calculates the sun's correct position relative NorrkÃ¶ping, Sweden). The user can walk around in the landscape and speed up/down time or set a specific time to change the sun's position. Created as a group-project in the course 3D- Computer Graphics.",
   	duration: 'Spring 2015', 
   	links: '<a href="https://github.com/Danielbook/3D_Projekt">Source code</a>', 
   	video: ''
