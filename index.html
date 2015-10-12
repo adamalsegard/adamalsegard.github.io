@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta keywords="Adam Alsegård, Legionen 2014, MTD 2016">
+    <meta keywords="Adam Alsegård, MT, Legionen 2014, MTD 2016">
     <meta name="description" content="Adam Alsegård, M.Sc. student in Media Technology">
 
     <title>Adam Alsegård</title>
@@ -21,14 +21,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>-->
+    <script type="text/javascript" src="js/angular.min.js"></script>
   </head>
   
-  <body>
-<!--
-    <div id="loader">
-      <p id="load">Loading! Hang on...</p>
-    </div>
--->
+  <body ng-app="myApp">
+
     <!-- Navigation panel -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -44,10 +42,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#involvements">Involvements</a></li>
-          <li><a href="#CV">CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         </div><!-- /.navbar-collapse -->
@@ -58,80 +55,84 @@
     <!-- Section 1 - home -->
     <div id="home" class="home">
       <div class="container">
-      <div class="jumbotron">
-        <div class="row">
-        <div class="col-md-3">
-          <img class="img-rounded" src="img/BWheadshot.jpg" alt="Headshot" width="200" height"300"/> 
-        </div>  
-        <div class="col-md-6">    
-          <h1>Adam Alsegård</h1>
-          <h4>Programmer, Filmmaker, Nerd, Person</h4>
-        </div>
-        <div class="col-md-3">
-          <div class="icons">
-            <a href="https://github.com/adamalsegard">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://www.facebook.com/adam.alsegard">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://www.linkedin.com/pub/adam-alsegård/87/25/417">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://vimeo.com/adamalsegard">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-vimeo-square fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://www.youtube.com/user/questisiones">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a>
-            <a href="https://instagram.com/adamalsegard/">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
-            <a href="mailto:adam.alsegard@gmail.com">
-              <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a>
-          </div>
-        </div>
-        </div>        
-      </div>
-      <!-- Section 2 - about -->
-      <div id="about" class="pad-section">
-        <div class ="panel panel-default"> 
-          <div class="panel-body">
-            <div class="row"  data-center="opacity: 1" 
-                              data-106-top="opacity: 0" 
-                              data-anchor-target="#about h2">
-              <div class="col-sm-8">
-                <h2> About </h2>
-                <p>I am a Master of Science student in Media Technology at Linköping University but located in Norrköping, Sweden. My passions are film, computer graphics and structured code. I like to keep busy and to be involved in different projects and organizations. check below for ongoing and finished projects. Feel free to contact me about interships, summer jobs or just some fun project!
-                </p>
+        <!-- Section 1.5 - Jumbotron -->
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="img-rounded" src="img/BWheadshot.jpg" alt="Headshot" width="200" height"300"/> 
+            </div>  
+            <div class="col-sm-6">    
+              <h1>Adam Alsegård</h1>
+              <h4>Programmer, Filmmaker, Nerd, Person</h4>
+            </div>
+            <div class="col-sm-3">
+              <div class="icons">
+                <a href="https://github.com/adamalsegard">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+                <a href="https://www.facebook.com/adam.alsegard">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+                <a href="https://www.linkedin.com/pub/adam-alsegård/87/25/417">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
+                <a href="https://vimeo.com/adamalsegard">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-vimeo-square fa-stack-1x fa-inverse"></i></span></a>
+                <a href="https://www.youtube.com/user/questisiones">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i></span></a>
+                <a href="https://instagram.com/adamalsegard/">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+                <a href="mailto:adam.alsegard@gmail.com">
+                  <span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a>
               </div>
-              <div class="col-sm-4">
-                <img class="img-rounded" src="img/side_pic-1-800.jpg" alt="Just a fun pic" />
+            </div>
+          </div>        
+        </div>
+
+        <!-- Section 2 - about -->
+        <div id="about" class="pad-section">
+          <div class ="panel panel-default"> 
+            <div class="panel-body">
+              <div class="row"  data-260-top="opacity: 1" 
+                                data-80-top="opacity: 0" 
+                                data-anchor-target="#about h2">
+                <div class="col-sm-8">
+                  <h2> About </h2>
+                  <p>I am a Master of Science student in Media Technology at Linköping University. Currently studying my third year at Campus Norrköping, Sweden. Next year I will probably study abroad.</p>
+                  <br>
+                  <p>My passions are film, computer graphics and structured code. I like to keep busy and to be involved in different projects and organizations. Check below for ongoing and finished projects. Feel free to contact me about internships, summer jobs or just some fun project!
+                  </p>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-rounded" src="img/side_pic-1-800.jpg" alt="Just a fun pic" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
       </div>
     </div>
 
 
-    <!-- Section 3 - BG-Pic -->
+    <!-- Section 3 - Interlude 1 -->
     <div id="sec3">
       <div class="bcg" 
-        data-0 ="background-color:rgb(15,39,14);"
-        data-top="background-color:(68,54,34);"
+        data-bottom ="background-color:rgb(1,36,1);"
+        data-top="background-color:rgb(56,59,56);"
         data-anchor-target="#sec3">
         <div class ="container"> 
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
               <h2 data-center="opacity: 1" 
                   data--200-bottom="opacity: 0" 
                   data-206-top="opacity: 1" 
                   data-106-top="opacity: 0" 
-                  data-anchor-target="#sec3 h2">Interlude :D</h2>
+                  data-anchor-target="#sec3 h2">Run forrest!</h2>
             </div>
           </div>
         </div>
@@ -140,74 +141,22 @@
 
 
     <!-- Section 4 - Portfolio -->
-    <div id="portfolio" class="pad-section">
+    <div id="portfolio" class="pad-section" ng-controller="portfolio">
       <div class ="container">
         <h2 class="text-center"> Portfolio</h2> 
         
-        <div class ="panel panel-default"> 
+        <!-- Default Angular Portfolio-->
+        <div class ="panel panel-default" ng-repeat="x in project"> 
           <div class="panel-body">
             <div class="row text-center">
               <div class="col-sm-8">
-                <h4> Domescape</h4>
-                <p> A simple 3D-landscape for domes created with SGCT and cspice (which calculates the sun's correct position relative Norrköping, Sweden). The user can walk around in the landscape and speed up/down time or set a specific time to change the sun's position. Created as a group-project in the course 3D- Computer Graphics. </p>
+                <h4> {{ x.title }}</h4>
+                <p> {{ x.description }} </p>
               </div>
               <div class="col-sm-4">
-                <p>Spring 2015</p>
-                <a href="https://github.com/Danielbook/3D_Projekt">Source code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class ="panel panel-default"> 
-          <div class="panel-body">
-            <div class="row text-center">
-              <div class="col-sm-8">
-                <h4> InterHelios</h4>
-                <p> An Android game developed during a course in user interface design and usability. It is a top-down 2D space shooter. The game is written in Java using the AndEngine framework. </p>
-              </div>
-              <div class="col-sm-4">
-                <p>Autumn 2014</p>
-                <a href="https://github.com/Danielbook/TNM040-KOMA-Projekt">Source code</a>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/crZpxgsYBw8" width="420" height="315" frameborder="0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class ="panel panel-default"> 
-          <div class="panel-body">
-            <div class="row text-center">
-              <div class="col-sm-8">
-                <h4> Growth</h4>
-                <p> "In a future where all vegetation has died, a company succeeds in producing a synthetic substitute for food. What could have been the dawn of a new era of science turns out to only be a different sort of extinction..." 
-
-                A sci-fi short film done with a couple of classmates in the course Digital Media. Big thanks to all actors who contributed without payment.</p>
-              </div>
-              <div class="col-sm-4">
-                <p>Autumn 2013</p>
-                <a href="growth/old/index.html">Website 1</a> <p> </p>
-                <a href="growth/index.html">Website 2 (by Benjamin Wiberg)</a>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe width="420" height="315" class="embed-responsive-item" src="http://player.vimeo.com/video/85702031"  frameborder="0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class ="panel panel-default"> 
-          <div class="panel-body">
-            <div class="row text-center">
-              <div class="col-sm-8">
-                <h4> Legomania</h4>
-                <p> A website about Lego! A group-project in electronic publishing where we search for specifik lego bits in a database. </p>
-              </div>
-              <div class="col-sm-4">
-                <p>Autumn 2013</p>
-                <a href="http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php">Check it out!</a>
+                <p>{{ x.duration }}</p>
+                <p ng-bind-html="x.links | rawHtml"></p>
+                <span ng-bind-html="x.video | rawHtml"></span>
               </div>
             </div>
           </div>
@@ -217,10 +166,10 @@
           <div class="panel-body">
             <div class="row text-center">
               <div class="col-sm-4">
-                <a href="html/portfolio.html">See more...</a>
+                <a href="html/portfolio.html">See more finished projects...</a>
               </div>
               <div class="col-sm-8">
-                <!-- Bilder? -->
+                <!-- Thumbnails med gömda project? -->
               </div>
             </div>
           </div>
@@ -229,20 +178,20 @@
       </div>
     </div>
 
-    <!-- Section 5 - BG-Pic -->
+    <!-- Section 5 - Interlude 2 -->
     <div id="sec5">
       <div class="bcg" 
-        data-bottom ="background-color:rgb(68,54,34);"
-        data-top="background-color:(122,0,0);"
+        data-bottom ="background-color:rgb(56,59,56);"
+        data-top="background-color: rgb(50, 0, 0);"
         data-anchor-target="#sec5">
         <div class ="container"> 
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
               <h2 data-center="opacity: 1" 
                   data--200-bottom="opacity: 0" 
                   data-200-top="opacity: 1" 
                   data-80-top="opacity: 0" 
-                  data-anchor-target="#sec5 h2">Interlude 2 :D</h2>
+                  data-anchor-target="#sec5">Rock on!</h2>
             </div>
           </div>
         </div>
@@ -253,6 +202,25 @@
     <div id="involvements" class="pad-section">
       <div class ="container">
         <h2 class="text-center"> Involvements/Commisson of trust</h2> 
+
+        <!-- Default Angular Involvements-->
+        <!-- Styla om den här lite!!!
+        <div class ="panel panel-default" ng-repeat="x in project"> 
+          <div class="panel-body">
+            <div class="row text-center">
+              <div class="col-sm-8">
+                <h4> {{ x.title }}</h4>
+                <p> {{ x.description }} </p>
+              </div>
+              <div class="col-sm-4">
+                <p>{{ x.duration }}</p>
+                <p ng-bind-html="x.links | rawHtml"></p>
+                <span ng-bind-html="x.video | rawHtml"></span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
 
         <div class ="panel panel-default"> 
           <div class="panel-body">
@@ -326,20 +294,35 @@
 
         <div class ="panel panel-default"> 
           <div class="panel-body">
-            <a href="html/engagemang.html">See more...</a>
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <a href="html/engagemang.html">See earlier involvements...</a>
+              </div>
+              <div class="col-sm-8">
+                <!-- Thumbnails med tidigare engagemang? -->
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- Section 7 - CV -->
-    <div id="CV" class="pad-section">
-      <div class ="container"> 
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <a href="html/CV(eng)-2015.pdf">Here's my resumé</a> <p> </p>
-            <a href="html/CV-2015.pdf">In swedish</a>
+    <!-- Section 7 - Interlude 3 -->
+    <div id="sec7">
+      <div class="bcg" 
+        data-bottom ="background-color:rgb(50, 0, 0);"
+        data-top="background-color: rgb(0, 55, 110);"
+        data-anchor-target="#sec7">
+        <div class ="container"> 
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 data-center="opacity: 1" 
+                  data--200-bottom="opacity: 0" 
+                  data-200-top="opacity: 1" 
+                  data-80-top="opacity: 0" 
+                  data-anchor-target="#sec5">Wonder what's comming!</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -348,10 +331,20 @@
     <!-- Section 8 - Contact -->
     <div id="contact" class="pad-section">
       <div class ="container"> 
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h2>This is me!</h2>
-            <a href="mailto:adam.alsegard@gmail.com">Contact me!</a>
+        <div class ="panel panel-default"> 
+          <div class="panel-body">
+            <div class="row text-center">
+              <h2>This is me!</h2>
+              <div class="col-sm-6 ">
+                <h4> Perhaps a nice quote?</h4>
+                <a href="mailto:adam.alsegard@gmail.com"></a>
+              </div>
+              <div class="col-sm-6 ">
+                <h4> CV and stuff!</h4>
+                <a href="html/CV(eng)-2015.pdf">Resumé in english</a> <br>
+                <a href="html/CV-2015.pdf">CV in swedish</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -365,37 +358,16 @@
     </footer>
 
   <!-- JavaScripts -->
-    <script type="text/javascript" src="js/skrollr.js"></script>
-    <script type="text/javascript" src="js/_main.js"></script>
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init({forceHeight: false});
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.j"><\/script>')
-/*
-    // remove loading overlay
-    $(window).load(function(){
-      $('body, html').scrollTop(0);
-      $("#loader").fadeToggle({display:"none"}, "slow");
-    });
-
-    $('a[data-toggle="scroll"]').click(function(event){event.preventDefault();$('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);});
-
-    var colors = ['#f4d0ad', '#abe7f4', '#f7ca7d', '#91f9d3', '#f8c075', '#b2fad7',
-            '#dbdbdb', '#fddcae', '#fb9d79', '#a0e3ff', '#abe7f4', '#CCCCCC',
-            '#C5BEB6', '#3E6187'];
-    var color = colors[Math.floor(Math.random()*colors.length)];
-    $('#second').css("background-color", color);
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-37237546-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  */  </script>
-    
+  </script>    
   </body>
 </html>
