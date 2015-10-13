@@ -46,7 +46,7 @@ myApp.controller('portfolio', function($scope, $http) {
     $http({ method: 'GET', url: 'https://adamalsegard.github.io/listor/portfolio.php'})
     .then(function successCallback(response){ 
     	console.log(response.data); 
-    	$scope.project = response.data.records;
+    	$scope.project = response.data.records; }, 
     	function errorCallback(response){ 
     		console.log(response); });
 });
