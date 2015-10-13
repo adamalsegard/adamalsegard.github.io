@@ -26,7 +26,6 @@
   </head>
   
   <body ng-app="myApp">
-    <div id="skrollr-body">
 
     <!-- Navigation panel -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -339,6 +338,7 @@
               <h2>This is me!</h2>
               <div class="col-sm-6 ">
                 <h4> Perhaps a nice quote?</h4>
+                <h4>Or even better, a link to my photo-portfolio!?</h4>
                 <a href="mailto:adam.alsegard@gmail.com"></a>
               </div>
               <div class="col-sm-6 ">
@@ -351,7 +351,6 @@
         </div>
       </div>
     </div>
- </div> 
     <!-- footer -->
     <footer>
       <div class="container">
@@ -362,7 +361,8 @@
   <!-- JavaScripts -->
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
-    var s = skrollr.init({forceHeight: false});
+    if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+    var s = skrollr.init({forceHeight: false}); }
     </script>
     <script type="text/javascript" src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -371,6 +371,5 @@
     <script>
     window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.j"><\/script>')
   </script> 
-
   </body>
 </html>
