@@ -1,6 +1,7 @@
 // Angular functions
 var myApp = angular.module('myApp', []);
 
+/*
 myApp.controller('portfolio', function($scope) {
     $scope.project = [
       {title:'Trygga', 
@@ -39,19 +40,16 @@ myApp.controller('portfolio', function($scope) {
   	  links: '<a href="http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php">Check it out!</a>', 
   	  video: ''} 
   	  ];
-  });
-/*
+  });*/
+
 myApp.controller('portfolio', function($scope, $http) {
     $http({ method: 'GET', url: 'https://adamalsegard.github.io/listor/portfolio.php'})
     .then(function successCallback(response){ 
-    	console.log(response); 
-    	var json = JSON.parse(response.records);
-    	console.log(json);
-    	$scope.project = json.records;
-    	console.log($scope.project) }, 
+    	console.log(response.data); 
+    	$scope.project = response.data.records;
     	function errorCallback(response){ 
     		console.log(response); });
-});*/
+});
 
 myApp.filter('rawHtml', ['$sce', function($sce){
   return function(val) {
