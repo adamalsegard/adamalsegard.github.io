@@ -87,7 +87,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover; */
   
-  background: none;
+  background: #262422;
   height: 250px;
   text-align: center;
 }
@@ -109,7 +109,11 @@ a:hover {
   background-color: #262422;
   color: #ffffff;
 }
-#portfolio h2, #portfolio h4 {
+#portfolio h2, #portfolio h3 {
+  color: #993D00;
+}
+
+#portfolio h5 {
   color: #993D00;
 }
 
@@ -125,12 +129,12 @@ a:hover {
   -o-background-size: cover;
   background-size: cover; */
 
-  background: none;
+  background: #480000;
   height: 250px;
   text-align: center;
 } 
 
-#involvements {
+#commitments {
   background: url(../img/bg_pic-3.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
@@ -144,13 +148,17 @@ a:hover {
   background-color: #FFAA70;
   color: #ffffff;
 }
-#involvements .panel-body {
+#commitments .panel-body {
   background-color: #480000;
   color: #ffffff;
 }
-#involvements h2, #involvements h4 {
+#commitments h2, #commitments h3 {
   color: #c7c7c7;
   text-shadow: 1px 0px 4px #000000;
+}
+
+#commitments h5 {
+  color: #c7c7c7;
 }
 
 
@@ -166,7 +174,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover; */
 
-  background: none;
+  background: #00376E;
   height: 250px;
   text-align: center;
 } 
