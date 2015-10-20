@@ -109,13 +109,10 @@ a:hover {
   background-color: #262422;
   color: #ffffff;
 }
-#portfolio h2, #portfolio h3 {
+#portfolio h2, #portfolio h3, #portfolio h4, #portfolio h5 {
   color: #993D00;
 }
 
-#portfolio h5 {
-  color: #993D00;
-}
 
 #sec5 .bcg{
   /* //If I want a pic as slide
@@ -152,14 +149,12 @@ a:hover {
   background-color: #480000;
   color: #ffffff;
 }
-#commitments h2, #commitments h3 {
-  color: #c7c7c7;
+#commitments h2, #commitments h3, #commitments h4, #commitments h5 {
+  color: #BF9300;
   text-shadow: 1px 0px 4px #000000;
+  /* color: #c7c7c7; */
 }
 
-#commitments h5 {
-  color: #c7c7c7;
-}
 
 
 #sec7 .bcg{

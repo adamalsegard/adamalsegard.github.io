@@ -103,24 +103,23 @@
       </div>
     </div>
 
-
     <!-- Section 3 - Interlude 1 -->
     <div id="sec3">
       <div class="bcg" 
         data-bottom ="background-color:rgb(1,36,1);"
         data-top="background-color:rgb(56,59,56);"
         data-anchor-target="#sec3">
-        <div class ="container"> 
+        <!--<div class ="container"> 
           <div class="row">
             <div class="col-sm-12">
               <h2 data-center="opacity: 1" 
-                  data--200-bottom="opacity: 0" 
+                  data- -200-bottom="opacity: 0" 
                   data-206-top="opacity: 1" 
                   data-106-top="opacity: 0" 
                   data-anchor-target="#sec3 h2">Run forrest!</h2>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
 
@@ -130,20 +129,19 @@
       <div class ="container">
         <h2 class="text-center"> Portfolio</h2> 
         
-
         <!-- Default Angular Portfolio-->
         <div class ="panel panel-default" ng-repeat="x in project | filter:{show:true}"> 
           <div class="panel-body">
             <div class="row text-center">
-              <div class="col-sm-8">
-                <h3> {{ x.title }}</h3>
-                <p> {{ x.description }} </p>
-                <br>
+              <div class="col-sm-8"><h3> {{ x.title }}</h3></div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-8">  
+                <p> {{ x.description }} </p><br>
                 <h5>Developed skills in:</h5>
                 <p> {{ x.skills }}</p>
               </div>
               <div class="col-sm-4">
-                <h5>{{ x.duration }}</h5>
+                <h4>{{ x.duration }}</h4>
                 <p ng-bind-html="x.links | rawHtml"></p>
                 <span ng-bind-html="x.video | rawHtml"></span>
               </div>
@@ -173,22 +171,22 @@
         data-bottom ="background-color:rgb(56,59,56);"
         data-top="background-color: rgb(50, 0, 0);"
         data-anchor-target="#sec5">
-        <div class ="container"> 
+        <!--<div class ="container"> 
           <div class="row">
             <div class="col-sm-12">
               <h2 data-center="opacity: 1" 
-                  data--200-bottom="opacity: 0" 
+                  data- -200-bottom="opacity: 0" 
                   data-200-top="opacity: 1" 
                   data-80-top="opacity: 0" 
                   data-anchor-target="#sec5">Rock on!</h2>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
 
     <!-- Sekction 6 - Commitments -->
-    <div id="commitments" class="pad-section">
+    <div id="commitments" class="pad-section" ng-controller="commitments">
       <div class ="container">
         <h2 class="text-center"> Commitments/Commisson of trust</h2> 
 
@@ -200,7 +198,7 @@
             </div>
             <div class="row text-center">
               <div class="col-sm-3">
-                <h5>{{ x.duration }}</h5>
+                <h4>{{ x.duration }}</h4>
                 <br>
                 <p>{{ x.volonteer }}</p>
               </div>
@@ -239,17 +237,17 @@
         data-bottom ="background-color:rgb(50, 0, 0);"
         data-top="background-color: rgb(0, 55, 110);"
         data-anchor-target="#sec7">
-        <div class ="container"> 
+        <!--<div class ="container"> 
           <div class="row">
             <div class="col-sm-12">
               <h2 data-center="opacity: 1" 
-                  data--200-bottom="opacity: 0" 
+                  data- -200-bottom="opacity: 0" 
                   data-200-top="opacity: 1" 
                   data-80-top="opacity: 0" 
                   data-anchor-target="#sec5">Wonder what's comming!</h2>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
 
@@ -275,6 +273,7 @@
         </div>
       </div>
     </div>
+
     <!-- footer -->
     <footer>
       <div class="container">
@@ -282,7 +281,7 @@
       </div>
     </footer>
 
-  <!-- JavaScripts -->
+    <!-- JavaScripts -->
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
     if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
@@ -290,10 +289,11 @@
     </script>
     <script type="text/javascript" src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.j"><\/script>')
-  </script> 
+    </script> 
+
   </body>
 </html>
