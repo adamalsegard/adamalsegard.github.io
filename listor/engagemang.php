@@ -28,7 +28,7 @@
     "skills": "leadership, teaching, basketball",
     "duration": "Sept 2015 - (Ongoing)", 
     "volonteer": "volonteer",
-    "links": "<a href="http://naffi.studorg.liu.se/">NAFFI's homepage</a>",
+    "links": "<a href='http://naffi.studorg.liu.se/'>NAFFI's homepage</a>",
     "video": "",
     "show": "false"
   },
@@ -39,7 +39,7 @@
     "skills": "communication, organization",
     "duration": "Sept 2013 - (Ongoing)", 
     "volonteer": "volonteer",
-    "links": "<a href="http://www.lintek.liu.se/utbildning/foerbaettra-din-utbildning/">LinTek's desciption of the position</a>",
+    "links": "<a href='http://www.lintek.liu.se/utbildning/foerbaettra-din-utbildning/'>LinTek's desciption of the position</a>",
     "video": "",
     "show": "true"
   },
@@ -50,7 +50,7 @@
     "skills": "event planning",
     "duration": "May 2014 - May 2015", 
     "volonteer": "volonteer",
-    "links": "<a href="http://stubinen.org/">Stubinen's official website</a>", 
+    "links": "<a href='http://stubinen.org/'>Stubinen's official website</a>", 
     "video": "",
     "show": "false"
   },
@@ -72,7 +72,7 @@
   	"skills": "cooperation, planning, leadership, organization, creativity, improvisation",
     "duration": "Jan 2014 - Jan 2015", 
   	"volonteer": "volonteer",
-    "links": "<a href="https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9">Some of our performances</a><br><a href="2014.legionen.nu">Our old website</a>", 
+    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='2014.legionen.nu'>Our old website</a>", 
   	"video": "",
     "show": "true"
 	},
@@ -83,7 +83,7 @@
     "skills": "interviewing, compromising",
     "duration": "Nov 2013 - Mars 2014", 
     "volonteer": "volonteer",
-    "links": "<a href="http://medieteknik.nu/se/association">Current Board Members</a>", 
+    "links": "<a href='http://medieteknik.nu/se/association'>Current Board Members</a>", 
     "video": "",
     "show": "false"
   },
@@ -94,7 +94,7 @@
     "skills": "public relations, serviceminded, social interaction",
     "duration": "Sept 2013 - (Ongiong)", 
     "volonteer": "volonteer/employed",
-    "links": "<a href="http://trappan.nu/">Trappan's official website</a>",
+    "links": "<a href='http://trappan.nu/'>Trappan's official website</a>",
     "video": "",
     "show": "true"
   },
@@ -105,7 +105,7 @@
     "skills": "leadership, openness, social relations, mindfulness",
     "duration": "Summer 2008", 
     "volonteer": "volonteer",
-    "links": "<a href="http://www.cisv.org/">CISV official website</a>",
+    "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
     "video": "",
     "show": "true"
   },
@@ -149,7 +149,7 @@
     "skills": "rhetoric, presentation",
     "duration": "Nov 2009", 
     "volonteer": "volonteer",
-    "links": "<a href="https://start.varldensbarn.se/">Världens barn official website</a>", 
+    "links": "<a href='https://start.varldensbarn.se/'>Världens barn official website</a>", 
     "video": "",
     "show": "false"
   },
