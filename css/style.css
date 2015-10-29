@@ -112,6 +112,9 @@ a:hover {
   color: #993D00;
 }
 
+#portfolio p{
+  color: #DEDEDE;
+}
 
 #sec5 .bcg{
   /* //If I want a pic as slide
@@ -153,7 +156,9 @@ a:hover {
   text-shadow: 1px 0px 4px #000000;
   /* color: #c7c7c7; */
 }
-
+#commitments p {
+  color: #DEDEDE;
+}
 
 
 #sec7 .bcg{

@@ -3,7 +3,7 @@
   	{
 	  "title":"Paymaster MTD2016", 
     "description": "Responsible for budgeting and accounting the finances of MTD2016. MTD (Medieteknikdagarna) is a committee of the Media Technology Association (Medietekniksektionen) with the objective to arrange a Career Fair for the students at MT. This implied to find different companies and lecturers that will interest and inspire the students of MT and, hopefully, help them to bind some valuable connections with the companies. Maybe somebody can find where to write their master thesis for example. I was also responsible, together with the project manager, for the recruitment for the remaining positions at the committee. MTD is one of the biggest commitments in the MT-association and it's a huge responsibility, especially as paymaster as I am one of two authorized signatories and in charge of the 370 000 SEK budget.",
-    "skills": "leadership, adminitration of a big organisation, accounting, teamwork",
+    "skills": "leadership, administration of a big organisation, accounting, teamwork",
   	"duration": "July 2015 - (Ongoing)", 
   	"volonteer": "volonteer",
     "links": "<a href='http://www.medieteknikdagarna.se/'>MTD16's website</a>", 
