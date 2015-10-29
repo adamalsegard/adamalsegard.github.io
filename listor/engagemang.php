@@ -144,7 +144,7 @@
   },
 
   {
-    "title":"Master of Ceremonies for Världens Barn"
+    "title":"Master of Ceremonies for Världens Barn",
     "description": "Together with five others I acted as master of ceremonies on a gala for the world's children (Världens Barn)",
     "skills": "rhetoric, presentation",
     "duration": "Nov 2009", 
