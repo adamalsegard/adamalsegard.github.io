@@ -73,7 +73,7 @@
     "duration": "Jan 2014 - Jan 2015", 
   	"volonteer": "volonteer",
     "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='2014.legionen.nu'>Our old website</a>", 
-  	"video": "<img class='img-rounded' src='../img/premy.jpg' alt='Premy Erpro' />",
+  	"video": "<img class='img-rounded' src='img/premy.jpg' alt='Premy Erpro' />",
     "show": "true"
 	},
 
@@ -106,7 +106,7 @@
     "duration": "Summer 2008", 
     "volonteer": "volonteer",
     "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
-    "video": "<img class='img-rounded' src='../img/cisv1.jpg' alt='Pippi Village!' />",
+    "video": "<img class='img-rounded' src='img/cisv1.jpg' alt='Pippi Village!' />",
     "show": "true"
   },
 
