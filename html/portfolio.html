@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Adam Alsegård - Portfolio</title>
+  <meta keywords="Adam Alsegård, adaal265, MT, Legionen 2014, MTD 2016">
+  <meta name="description" content="Adam Alsegård, M.Sc. student in Media Technology">
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>-->
+  <script type="text/javascript" src="../js/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+
+  <!-- Navigation panel -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+            <i class="sr-only">Toggle navigation</i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+          </button>
+          <a class="navbar-brand" href="../index.html#">Adam Alsegård</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html#home">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="../index.html#portfolio">Portfolio</a></li>
+          <li><a href="../index.html#commitments">Commitments</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div id="portfoliohtml" class="pad-section" ng-controller="portfolio">
+      <div class ="container">
+        <h2 class="text-center"> Extended portfolio </h2> 
+        
+        <!-- Default Angular Portfolio-->
+        <div class ="panel panel-default" ng-repeat="x in project | filter:{show:false}"> 
+          <div class="panel-body">
+            <div class="row text-center">
+              <div class="col-sm-8"><h3> {{ x.title }}</h3></div>
+              <div class="col-sm-4"></div></div>
+            <div class="row text-center">
+              <div class="col-sm-8">  
+                <p> {{ x.description }} </p><br>
+                <h5>Developed skills in:</h5>
+                <p> {{ x.skills }}</p>
+              </div>
+              <div class="col-sm-4">
+                <h4>{{ x.duration }}</h4>
+                <p ng-bind-html="x.links | rawHtml"></p>
+                <span ng-bind-html="x.video | rawHtml"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="../index.html#portfolio" role="button" class="btn btn-block btn-new">Go back</a>
+      </div>
+    </div>
+    
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <p class="text-right">Copyright &copy; Adam Alsegård 2015</p>
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.j"><\/script>')
+    </script> 
+  </body>
+</html>

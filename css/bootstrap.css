@@ -3187,6 +3187,31 @@ fieldset[disabled] .btn-primary.active {
   color: #337ab7;
   background-color: #fff;
 }
+.btn-new {
+  color: #fff;
+  background-color: #262422;
+  border-color: #ffffff;
+  display: block;
+  width: 100%;
+}
+.btn-new:hover {
+  color: #fff;
+  background-color: #262626;
+  border-color: #ffffff;
+}
+.btn-eng {
+  color: #fff;
+  background-color: #0086A1;
+  border-color: #ffffff;
+  display: block;
+  width: 100%;
+}
+.btn-eng:hover {
+  color: #fff;
+  background-color: #0086A1;
+  border-color: #ffffff;
+}
+
 .btn-success {
   color: #fff;
   background-color: #5cb85c;

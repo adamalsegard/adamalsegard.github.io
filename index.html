@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta keywords="Adam Alsegård, MT, Legionen 2014, MTD 2016">
+    <meta keywords="Adam Alsegård, adaal265, MT, Legionen 2014, MTD 2016">
     <meta name="description" content="Adam Alsegård, M.Sc. student in Media Technology">
 
     <title>Adam Alsegård</title>
@@ -27,7 +27,7 @@
   <body ng-app="myApp">
 
     <!-- Navigation panel -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" id="bs-js-navbar-scrollspy">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
@@ -134,9 +134,12 @@
           <div class="panel-body">
             <div class="row text-center">
               <div class="col-sm-8"><h3> {{ x.title }}</h3></div>
-              <div class="col-sm-4"></div>
+              <div class="col-sm-4"> <!--<img class="img-rounded" src="img/{{ x.title }}.png" alt="logo"/>--> </div>
+            </div>
+            <div class="row text-center">
               <div class="col-sm-8">  
-                <p> {{ x.description }} </p><br>
+               <!-- <a href="#{{ x.title }}" data-toggle="collapse">Description</a>-->
+                <p id="{{ x.title }}" class="collapse in"> {{ x.description }} </p><br>
                 <h5>Developed skills in:</h5>
                 <p> {{ x.skills }}</p>
               </div>
@@ -219,7 +222,7 @@
           <div class="panel-body">
             <div class="row text-center">
               <div class="col-sm-4">
-                <a href="html/engagemang.html">See earlier commitments...</a>
+                <a href="html/engagemang.html">See more commitments...</a>
               </div>
               <div class="col-sm-8">
                 <!-- Thumbnails med tidigare engagemang? -->
@@ -257,11 +260,11 @@
         <div class ="panel panel-default"> 
           <div class="panel-body">
             <div class="row text-center">
-              <h2>This is me!</h2>
+              <h2>So this was me!</h2>
               <div class="col-sm-6 ">
-                <h4> Perhaps a nice quote?</h4>
-                <h4>Or even better, a link to my photo-portfolio!?</h4>
-                <a href="mailto:adam.alsegard@gmail.com"></a>
+                <h4> Feel free to contact me on social media!</h4>
+                <a href="mailto:adam.alsegard@gmail.com">Or send me a nice e-mail!</a>
+                
               </div>
               <div class="col-sm-6 ">
                 <h4> CV and stuff!</h4>
@@ -282,13 +285,13 @@
     </footer>
 
     <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
     if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
     var s = skrollr.init({forceHeight: false}); }
     </script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script>
