@@ -73,7 +73,7 @@
     "duration": "Jan 2014 - Jan 2015", 
   	"volonteer": "volonteer",
     "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='2014.legionen.nu'>Our old website</a>", 
-  	"video": "<img class='img-rounded' src='img/premy.jpg' alt='Premy Erpro' />",
+  	"video": "<img class='img-rounded' src='../img/premy.jpg' alt='Premy Erpro' />",
     "show": "true"
 	},
 
@@ -106,7 +106,7 @@
     "duration": "Summer 2008", 
     "volonteer": "volonteer",
     "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
-    "video": "<img class='img-rounded' src='img/cisv1.jpg' alt='Pippi Village!' />",
+    "video": "<img class='img-rounded' src='../img/cisv1.jpg' alt='Pippi Village!' />",
     "show": "true"
   },
 
@@ -117,7 +117,7 @@
     "duration": "Since I was 13 and still ongoing, more or less", 
     "volonteer": "hobby",
     "links": "",
-    "video": "<img class='img-rounded' src='img/basket.jpg' alt='Me playing basketball' />",
+    "video": "<img class='img-rounded' src='../img/basket.jpg' alt='Me playing basketball' />",
     "show": "false"
   },
 
@@ -128,7 +128,7 @@
     "duration": "From when I was about 15 and still ongoing, more or less", 
     "volonteer": "hobby",
     "links": "", 
-    "video": "<img class='img-rounded' src='img/teater.jpg' alt='Acting as a lightpole' />",
+    "video": "<img class='img-rounded' src='../img/teater.jpg' alt='Acting as a lightpole' />",
     "show": "false"
   },
 
@@ -150,7 +150,7 @@
     "duration": "Nov 2009", 
     "volonteer": "volonteer",
     "links": "<a href='https://start.varldensbarn.se/'>Världens barn official website</a>", 
-    "video": "<img class='img-rounded' src='img/gala.jpg' alt='Acting as Master of Ceremoies' />",
+    "video": "<img class='img-rounded' src='../img/gala.jpg' alt='Acting as Master of Ceremoies' />",
     "show": "false"
   },
 
@@ -161,7 +161,7 @@
     "duration": "Sept 2007 - Sept 2010", 
     "volonteer": "volonteer",
     "links": "", 
-    "video": "<img class='img-rounded' src='img/vildmark.jpg' alt='Paddling away' />",
+    "video": "<img class='img-rounded' src='../img/vildmark.jpg' alt='Paddling away' />",
     "show": "false"
   }]
 }
