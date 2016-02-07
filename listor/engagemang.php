@@ -1,8 +1,8 @@
-{
+﻿{
 "records": [
   	{
 	  "title":"Paymaster MTD2016", 
-    "description": "Responsible for budgeting and accounting the finances of MTD2016. MTD (Medieteknikdagarna) is a committee of the Media Technology Association (Medietekniksektionen) with the objective to arrange a Career Fair for the students at MT. This implied to find different companies and lecturers that will interest and inspire the students of MT and, hopefully, help them to bind some valuable connections with the companies. Maybe somebody can find where to write their master thesis for example. I was also responsible, together with the project manager, for the recruitment for the remaining positions at the committee. MTD is one of the biggest commitments in the MT-association and it's a huge responsibility, especially as paymaster as I am one of two authorized signatories and in charge of the 370 000 SEK budget.",
+    "description": "Responsible for budgeting and accounting the finances of MTD2016. The MTD group is a committee of the Media Technology Association with the objective to arrange a career fair for the students at MT. The Media Technology Days are two days filled with a company fair, lectures, workshops and other events. Everything ends with a much appreciated banquet. I was also responsible, together with the project manager, for the recruitment for the remaining positions at the committee. MTD is the biggest career fair for students in Norrköping.",
     "skills": "leadership, administration of a big organisation, accounting, teamwork",
   	"duration": "July 2015 - (Ongoing)", 
   	"volonteer": "volonteer",
@@ -10,6 +10,17 @@
     "video": "",
     "show": "true"
 	},
+
+  {
+    "title":"Ambassador CAwards", 
+    "description": "As a student ambassador for CAwards I am part of a team that promotes the awards to students at different universities.",
+    "skills": "marketing, public relations",
+    "duration": "Jan 2016 - April 2016", 
+    "volonteer": "volonteer",
+    "links": "<a href='http://www.cawards.se/'>CAwards's website</a>", 
+    "video": "",
+    "show": "true"
+  },
 
   {
 	  "title":"Form teacher (Klassföreståndare)", 
@@ -41,7 +52,7 @@
     "volonteer": "volonteer",
     "links": "<a href='http://www.lintek.liu.se/utbildning/foerbaettra-din-utbildning/'>LinTek's desciption of the position</a>",
     "video": "",
-    "show": "true"
+    "show": "false"
   },
 
   {
@@ -73,7 +84,7 @@
     "duration": "Jan 2014 - Jan 2015", 
   	"volonteer": "volonteer",
     "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='2014.legionen.nu'>Our old website</a>", 
-  	"video": "<img class='img-rounded' src='img/premy.jpg' alt='Premy Erpro' />",
+  	"video": "",
     "show": "true"
 	},
 
@@ -96,7 +107,7 @@
     "volonteer": "volonteer/employed",
     "links": "<a href='http://trappan.nu/'>Trappan's official website</a>",
     "video": "",
-    "show": "true"
+    "show": "false"
   },
 
   {
@@ -107,7 +118,7 @@
     "volonteer": "volonteer",
     "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
     "video": "<img class='img-rounded' src='img/cisv1.jpg' alt='Pippi Village!' />",
-    "show": "true"
+    "show": "false"
   },
 
   {
@@ -150,7 +161,7 @@
     "duration": "Nov 2009", 
     "volonteer": "volonteer",
     "links": "<a href='https://start.varldensbarn.se/'>Världens barn official website</a>", 
-    "video": "<img class='img-rounded' src='../img/gala.jpg' alt='Acting as Master of Ceremoies' />",
+    "video": "<img class='img-rounded' src='../img/gala.JPG' alt='Acting as Master of Ceremoies' />",
     "show": "false"
   },
 

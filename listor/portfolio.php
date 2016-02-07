@@ -2,9 +2,9 @@
 "records": [
   	{
 	  "title":"Trygga", 
-    "description": "Trygga is a service for a safer community. It's essentially a system for a smart panic alarm, but it has a lot of possible areas of development. The basic idea is to have a small device on you, as when triggered sends out a signal to a network of people in the nearby area who can interact if needed. The prototype was built with LittleBits, IFFT and meteor.js. The project was an entry at East Sweden Hack 2015; which is a hackathon at Mjärdevi Science park in Linköping. Trygga won the main price for Best Project. The price itself was a journey to Berlin in late 2015 to meet Start-ups and a couple of Internet-of-things companies (Industry 4.0). The team has continued to work on Trygga after the Hackathon (see our official website to the right for further information) (Coming soon).",
+    "description": "Trygga is a service for a safer community. It's essentially a system for a smart panic alarm, but it has a lot of possible areas of development. The basic idea is to have a small device on you, as when triggered sends out a signal to a network of people in the nearby area who can interact if needed. The prototype was built with LittleBits, IFFT and meteor.js. The project was an entry at East Sweden Hack 2015; which is a hackathon at Mjärdevi Science park in Linköping. Trygga won the main price for Best Project. The price itself was a journey to Berlin in late 2015 to meet Start-ups and a couple of Internet-of-things companies (Industry 4.0).",
     "skills": "teamwork, project management, work under pressure, meteor.js, presentation/pitch",
-  	"duration": "Sept 2015 - (Ongoing)", 
+  	"duration": "Sept 2015", 
   	"links": "<a href='http://eastswedenhack.se/'>East Sweden Hack - Presentation</a><br><a href='http://trygga.meteor.com/'>Our prototype website</a>", 
   	"video": "",
     "show": "true"
