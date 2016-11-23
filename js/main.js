@@ -2,7 +2,7 @@
 var myApp = angular.module('myApp', []);
 
 myApp.controller('portfolio', function($scope, $http) {
-    $http({ method: 'GET', url: 'https://adamalsegard.github.io/listor/portfolio.php'})
+    $http({ method: 'GET', url: 'https://adamalsegard.github.io/lists/portfolio.php'})
     .then(function successCallback(response){ 
     	console.log(response.data); 
     	$scope.project = response.data.records; }, 
@@ -11,7 +11,7 @@ myApp.controller('portfolio', function($scope, $http) {
 });
 
 myApp.controller('commitments', function($scope, $http) {
-    $http({ method: 'GET', url: 'https://adamalsegard.github.io/listor/engagemang.php'})
+    $http({ method: 'GET', url: 'https://adamalsegard.github.io/lists/engagemang.php'})
     .then(function successCallback(response){ 
     	console.log(response.data); 
     	$scope.project = response.data.records; }, 

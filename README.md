@@ -1,2 +1,3 @@
-# adamalsegard.github.io
-My personal website
+# www.adamalsegard.se
+
+### My portfolio website with projekts and engagements

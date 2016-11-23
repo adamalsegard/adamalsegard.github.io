@@ -50,13 +50,10 @@ a:hover {
 }
 
 #home .icons{
-  display: table-row;
+  /*display: table-row;*/
   padding: 5px;
-  height: 30px;
-  width: 30px;
   line-height: 30px;
-  text-align: center;
-  vertical-align: middle;
+  margin: auto;
 
 }
 #home a {
@@ -64,6 +61,11 @@ a:hover {
 }
 #home a:hover{
   color: #7e7e7e;
+}
+
+#about{
+  margin: auto;
+  width: 80%;
 }
 
 #about .panel-body {
@@ -87,13 +89,13 @@ a:hover {
   background-size: cover; */
   
   background: #262422;
-  height: 250px;
+  height: 130px;
   text-align: center;
 }
 
 
 #portfolio {
-  background: url(../img/bg_pic-2-1500.jpg) no-repeat center center fixed; 
+  background: url(../img/bg_pic-2-1200.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -118,7 +120,7 @@ a:hover {
 
 /*Extended portfolio*/
 #portfoliohtml {
-  background: url(../img/portfolio.jpg) no-repeat center center fixed; 
+  background: url(../img/portfolio-1200.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -158,12 +160,12 @@ a:hover {
   background-size: cover; */
 
   background: #480000;
-  height: 250px;
+  height: 130px;
   text-align: center;
 } 
 
 #commitments {
-  background: url(../img/bg_pic-3.jpg) no-repeat center center fixed; 
+  background: url(../img/bg_pic-3-1200.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -191,7 +193,7 @@ a:hover {
 
 /*Extended commitments*/
 #engagemang {
-  background: url(../img/engagemang.jpg) no-repeat center center fixed; 
+  background: url(../img/engagemang-1200.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -234,12 +236,12 @@ a:hover {
   background-size: cover; */
 
   background: #00376E;
-  height: 250px;
+  height: 130px;
   text-align: center;
 } 
 
 #contact {
-  background: url(../img/side_pic-2-1500.jpg) no-repeat center center fixed; 
+  background: url(../img/bg_pic-4-1200.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;

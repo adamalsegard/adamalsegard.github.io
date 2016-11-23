@@ -82,19 +82,25 @@
         <div id="about" class="pad-section">
           <div class ="panel panel-default"> 
             <div class="panel-body">
-              <div class="row"  data-160-top="opacity: 1" 
-                                data-top="opacity: 0" 
+              <div class="row"  data--350-top="opacity: 1" 
+                                data-top-bottom="opacity: 1" 
                                 data-anchor-target="#about h2">
-                <div class="col-sm-8">
+                <div class="col-sm-12">
                   <h2> About </h2>
-                  <p>I am a Master of Science student in Media Technology at Linköping University. Currently studying my third year at Campus Norrköping, Sweden. Next year I will probably study abroad.</p>
-                  <br>
-                  <p>My passions are film, computer graphics and structured code. I like to keep busy and to be involved in different projects and organizations. Check below for ongoing and finished projects. Feel free to contact me about internships, summer jobs or just some fun project!
+                  I am a Master of Science student in Media Technology/Software Engineering at Linköping University, Campus Norrköping. Currently studying my forth year at the National University of Singapore as an exchange student.
+                  </p><br><p>
+                  I'm a huge film nerd, both watching and making them. The latter something I got to try while studying film-making in Stockholm for a year before starting University. The main reason I chose the MT program was actually film and the possibility to work with animated movies after graduation. So it should come as no surprise that computer graphics is another big passion of mine! 
+                  </p><br><p>
+                  However, I'd never programmed before starting MT so it took some time to get comfortable but now I love it, especially to get visual results from the code you write. That's why another passion of mine is to write code that's fast (why not parallel), well structured and gives a visual result!
+                  </p><br><p>
+                  As a person I like to keep busy and I've been involved in lots of different projects and organizations outside of school. This website is to present those projects, along with the ones I've done in school. Hope you enjoy! 
+                  </p><br><p>
+                  If you think any of these projects sounds interesting and you want to know more, please drop me a message! The same applies if you have a project/internship/summer job that you think I would be interested in! Or if you just want to say hi! :D
                   </p>
                 </div>
-                <div class="col-sm-4">
+                <!--<div class="col-sm-4">
                   <img class="img-rounded" src="img/side_pic-1-800.jpg" alt="Just a fun pic" />
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
@@ -109,17 +115,6 @@
         data-bottom ="background-color:rgb(1,36,1);"
         data-top="background-color:rgb(56,59,56);"
         data-anchor-target="#sec3">
-        <!--<div class ="container"> 
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 data-center="opacity: 1" 
-                  data- -200-bottom="opacity: 0" 
-                  data-206-top="opacity: 1" 
-                  data-106-top="opacity: 0" 
-                  data-anchor-target="#sec3 h2">Run forrest!</h2>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
 
@@ -174,17 +169,6 @@
         data-bottom ="background-color:rgb(56,59,56);"
         data-top="background-color: rgb(50, 0, 0);"
         data-anchor-target="#sec5">
-        <!--<div class ="container"> 
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 data-center="opacity: 1" 
-                  data- -200-bottom="opacity: 0" 
-                  data-200-top="opacity: 1" 
-                  data-80-top="opacity: 0" 
-                  data-anchor-target="#sec5">Rock on!</h2>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
 
@@ -202,15 +186,14 @@
             <div class="row text-center">
               <div class="col-sm-3">
                 <h4>{{ x.duration }}</h4>
-                <br>
-                <p>{{ x.volonteer }}</p>
+                <p>{{ x.volunteer }}</p>
+                <h5>Developed skills in:</h5>
+                <p> {{ x.skills }}</p>
               </div>
               <div class="col-sm-6">
                 <p> {{ x.description }} </p>
               </div>
               <div class="col-sm-3">
-                <h5>Developed skills in:</h5>
-                <p> {{ x.skills }}</p>
                 <p ng-bind-html="x.links | rawHtml"></p>
                 <span ng-bind-html="x.video | rawHtml"></span>
               </div>
@@ -240,17 +223,6 @@
         data-bottom ="background-color:rgb(50, 0, 0);"
         data-top="background-color: rgb(0, 55, 110);"
         data-anchor-target="#sec7">
-        <!--<div class ="container"> 
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 data-center="opacity: 1" 
-                  data- -200-bottom="opacity: 0" 
-                  data-200-top="opacity: 1" 
-                  data-80-top="opacity: 0" 
-                  data-anchor-target="#sec5">Wonder what's comming!</h2>
-            </div>
-          </div>
-        </div>-->
       </div>
     </div>
 
