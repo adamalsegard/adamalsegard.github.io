@@ -32,30 +32,16 @@ a:hover {
   color: #333333;
 }
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
 /* additional sections */
 #home {
   background: url(../img/bg_pic-1-1200.jpg) no-repeat center center fixed; 
-  display: table;
+  display: inherit;
   text-align: center;
   vertical-align: middle;
-  height: 100%;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,10 +96,11 @@ a:hover {
 
 #portfolio {
   background: url(../img/bg_pic-2-1200.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
+  display: inherit;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,15 +122,15 @@ a:hover {
 /*Extended portfolio*/
 #portfoliohtml {
   background: url(../img/portfolio-1200.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
+  display: inherit;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   background-color: #FFAA70;
   color: #ffffff;
 }
@@ -180,10 +167,11 @@ a:hover {
 
 #commitments {
   background: url(../img/bg_pic-3-1200.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
+  display: inherit;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -206,15 +194,15 @@ a:hover {
 /*Extended commitments*/
 #engagemang {
   background: url(../img/engagemang-1200.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
+  display: inherit;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   background-color: #FFAA70;
 }
 #engagemang .panel-body {
@@ -254,10 +242,11 @@ a:hover {
 
 #contact {
   background: url(../img/bg_pic-4-1200.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
+  display: inherit;
+  height: auto;
   position: relative;
   width: 100%;
+  overflow: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
