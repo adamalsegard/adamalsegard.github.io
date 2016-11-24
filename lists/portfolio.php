@@ -6,7 +6,7 @@
     "skills": "Python, OpenCV, feature tracking",
     "duration": "Oct - Nov 2016", 
     "links": "<a href='https://github.com/wojdziw/computer-vision-project'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4'></iframe></div>",
     "show": "true"
   },
 
@@ -16,7 +16,7 @@
     "skills": "C#, Unity3D, game dev, Vuforia tracking, network",
     "duration": "Mars - May 2016", 
     "links": "<a href='lists/TNM094.pdf'>Project report (Swedish)</a><br><a href='https://github.com/AndroidHMD/TowerVR'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/2eBE4bzM2sw' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
+    "video": "<div class='videoWrapper'><iframe src='https://www.youtube.com/embed/2eBE4bzM2sw' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
     "show": "true"
   },
 
