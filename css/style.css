@@ -243,7 +243,7 @@ a:hover {
 #contact {
   background: url(../img/bg_pic-4-1200.jpg) no-repeat center center fixed; 
   display: inherit;
-  height: auto;
+  height: 90%;
   position: relative;
   width: 100%;
   overflow: auto;
