@@ -7,7 +7,7 @@
   	"duration": "July 2015 - June 2016", 
   	"volunteer": "volunteer",
     "links": "<a href='http://www.medieteknikdagarna.se/'>MTD16's website</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/tPc6Rm6njaA' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>", 
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/tPc6Rm6njaA'></iframe></div>", 
     "show": "true"
 	},
 

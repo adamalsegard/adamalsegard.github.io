@@ -16,7 +16,7 @@
     "skills": "C#, Unity3D, game dev, Vuforia tracking, network",
     "duration": "Mars - May 2016", 
     "links": "<a href='lists/TNM094.pdf'>Project report (Swedish)</a><br><a href='https://github.com/AndroidHMD/TowerVR'>Source code</a>", 
-    "video": "<div class='videoWrapper'><iframe src='https://www.youtube.com/embed/2eBE4bzM2sw' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/2eBE4bzM2sw'></iframe></div>",
     "show": "true"
   },
 
@@ -26,7 +26,7 @@
     "skills": "OpenGL rendering pipeline, GLSL shaders, OpenCL",
     "duration": "Jan - Mars 2016", 
     "links": "<a href='lists/TNM085.pdf'>Project report (English)</a><br><a href='https://github.com/Hedlundaren/vattenoverhuvudet'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/15oeGll4-80' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/15oeGll4-80'></iframe></div>",
     "show": "true"
   },
 
@@ -76,7 +76,7 @@
   	"skills": "UX, Android Studio, java, AndEngine",
     "duration": "Nov - Dec 2014", 
   	"links": "<a href='https://github.com/Danielbook/TNM040-KOMA-Projekt'>Source code</a><br><a href='lists/TNM040.pdf'>Project report (Swedish)</a>", 
-  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/crZpxgsYBw8' width='560' height='315' frameborder='0' allowfullscreen></iframe></div>",
+  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/crZpxgsYBw8'></iframe></div>",
     "show": "true"
   },
 
@@ -86,7 +86,7 @@
   	"skills": "film making, leadership, basic web development",
     "duration": "Okt - Dec 2013", 
   	"links": "<a href='growth/old/index.html'>Website 1</a><br><a href='growth/index.html'>Website 2 (by Benjamin Wiberg)</a><br><a href='lists/TNM088.pdf'>Project report (Swedish)</a>", 
-  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe width='560' height='315' class='embed-responsive-item' src='https://player.vimeo.com/video/85702031'  frameborder='0' allowfullscreen></iframe></div>",
+  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://player.vimeo.com/video/85702031'></iframe></div>",
     "show": "true"
   }, 
   	  
