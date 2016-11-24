@@ -1,3 +1,9 @@
 # www.adamalsegard.se
 
-### My portfolio website with projekts and engagements
+### My portfolio website
+
+##### Built with 
+* bootstrap
+* angular.js
+* skrollr
+
