@@ -188,13 +188,13 @@
               <div class="col-sm-3">
                 <h4>{{ x.duration }}</h4>
                 <p>{{ x.volunteer }}</p>
-                <h5>Developed skills in:</h5>
-                <p> {{ x.skills }}</p>
               </div>
               <div class="col-sm-6">
                 <p ng-bind-html="x.description | rawHtml"></p>
               </div>
               <div class="col-sm-3">
+                <h5>Developed skills in:</h5>
+                <p> {{ x.skills }}</p>
                 <p ng-bind-html="x.links | rawHtml"></p>
                 <span ng-bind-html="x.video | rawHtml"></span>
               </div>

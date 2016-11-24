@@ -22,7 +22,7 @@
 
   {
     "title":"'Head below water'", 
-    "description": "<p>A 3D fluid simulation done in real-time. The physical simulation was based on the Smoothed Particle Hydrodynamics (SPH) method. Calculations and rendering were done on the GPU with OpenCL and OpenGL/GLSL respectively. The rendering used the method "screen-space point splatting" for the surface. Myself and another group member worked on the rendering (among other things). We tried a couple of different methods before settling for the one mentioned above, one of which used tessellation shaders. In the end we couldn't get a coherent normal for the surface (calculated by mean curvature flow) before the deadline which is the reason the video doesn't show all implemented pipelining steps.</p><p> In the end ~20.000 particles could be simulated and rendered in 60 fps on a Nvidia GeForce GTX 750.</p><p>The project was nominated in the category "Technical Excellence" at CAwards 2016.</p>",
+    "description": "<p>A 3D fluid simulation done in real-time. The physical simulation was based on the Smoothed Particle Hydrodynamics (SPH) method. Calculations and rendering were done on the GPU with OpenCL and OpenGL/GLSL respectively. The rendering used the method 'screen-space point splatting' for the surface. Myself and another group member worked on the rendering (among other things). We tried a couple of different methods before settling for the one mentioned above, one of which used tessellation shaders. In the end we couldn't get a coherent normal for the surface (calculated by mean curvature flow) before the deadline which is the reason the video doesn't show all implemented pipelining steps.</p><p> In the end ~20.000 particles could be simulated and rendered in 60 fps on a Nvidia GeForce GTX 750.</p><p>The project was nominated in the category 'Technical Excellence' at CAwards 2016.</p>",
     "skills": "OpenGL rendering pipeline, GLSL shaders, OpenCL",
     "duration": "Jan - Mars 2016", 
     "links": "<a href='lists/TNM085.pdf'>Project report (English)</a><br><a href='https://github.com/Hedlundaren/vattenoverhuvudet'>Source code</a>", 
@@ -44,9 +44,8 @@
 	  "title":"Reverbify", 
     "description": "<p>Reverbify is an application where the user can upload, record or choose a default sound that can be 'reverbified'. To 'reverbify' is to add a room's reverb to the chosen sound and then play it as it would sound in that room. This was a short group project in the course Sound Physics (TFYA65). We recorded the impulse response in a couple of different rooms with calculations done in Matlab. We later used these and some other impulse responses from the free sound bank Samplicity. Our group of three put in more work than most groups for this of project. It would have been enough to just do the calculations in Matlab but we wanted to build a good web application as well.</p>",
   	"skills": "meteor.js, web audio API, bootstrap, Ionic, Matlab",
-    "duration": "Sept - Okt 2015", 
-  	"links": "<a href='http://reverbify.meteor.com/'>Website</a><br><a href='https://github.com/codingInSpace/reverbify'>Source code</a>
-    <br><a href='lists/TFYA65.pdf'>Project report (Swedish)</a>",
+    "duration": "Sept - Oct 2015",
+    "links": "<a href='http://reverbify.meteor.com/'>Website</a><br><a href='https://github.com/codingInSpace/reverbify'>Source code</a><br><a href='lists/TFYA65.pdf'>Project report (Swedish) </a>",
   	"video": "",
     "show": "false"
 	},
@@ -66,8 +65,7 @@
     "description": "<p>A simple 3D-landscape for cluster-based Domes created with SGCT and CSPICE (with which our application calculates the sun's correct position relative the coordinates for Norrköping, Sweden). The user can walk around in the landscape and speed up/reverse time or set a specific time to change the sun's position. The landscape contains some mountains (rendered from height maps) and a couple of objects, all with different textures. Created as a group project in the course 3D Computer Graphics (TNM061). </p><p>This was the first time any of us tried SGCT or parallel cluster programming. You need to cmake the project before you can compile it, and it will look rather bad if you don't run it in a proper cluster. But you can look at https://c-student.itn.liu.se/wiki/develop:sgcttutorials:compile if you want to compile our source code.</p>",
   	"skills": "openGL, SGCT, CSPICE, cmake, Linux, C#, parallel programming",
     "duration": "April - May 2015", 
-  	"links": "<a href='https://github.com/Danielbook/3D_Projekt'>Source code</a>
-    <br><a href='lists/TNM061.pdf'>Project report (Swedish)</a>", 
+  	"links": "<a href='https://github.com/Danielbook/3D_Projekt'>Source code</a><br><a href='lists/TNM061.pdf'>Project report (Swedish)</a>", 
   	"video": "",
     "show": "true"
 	},
@@ -97,8 +95,7 @@
     "description": "<p>A website about LEGO! A group project in Electronic Publishing (TNMK30) where the user can search for specific Lego bits in a database. This was my (and the rest of the group's) first website and it was developed in a group with five members. I was in charge of the database-handling together with another group member while the others were in charge of the design and forum.</p>",
   	"skills": "PHP, mySQL, basic web development",
     "duration": "Nov - Dec 2013", 
-  	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php'>Check it out!</a><br>
-    <a href='lists/TNMK30.pdf'>Project report (Swedish)</a>", 
+  	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php'>Check it out!</a><br><a href='lists/TNMK30.pdf'>Project report (Swedish)</a>", 
   	"video": "",
     "show": "false"
 	}, 

@@ -117,7 +117,7 @@
     "duration": "Summer 2008", 
     "volunteer": "volunteer",
     "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
-    "video": "<img class='img-rounded' src='img/eng-cisv.jpg' alt='Participants of Pippi Village 2008!' />",
+    "video": "<img class='img-rounded' src='../img/eng-cisv.jpg' alt='Participants of Pippi Village 2008!' />",
     "show": "false"
   },
 
