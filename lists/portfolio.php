@@ -35,7 +35,7 @@
     "description": "<p>Trygga is a service for a safer community. It's essentially a system for a smart panic alarm, but it has a lot of possible areas of development. The basic idea is to have a small device on you, as when triggered sends out a signal to a network of people in the nearby area who can interact if needed. The prototype was built with LittleBits, IFFT and meteor.js. </p><p>The project was developed during East Sweden Hack 2015; which is a hackathon at Mjärdevi Science park in Linköping. Trygga won the main price of Best Project. The price itself was a journey to Berlin in late 2015 to meet Start-ups and a couple of IoT companies (Industry 4.0).</p>",
     "skills": "teamwork, project management, work under pressure, meteor.js, presentation/pitch",
   	"duration": "Sept 2015", 
-  	"links": "<a href='http://eastswedenhack.se/esh15/prisutdelning-2015'>East Sweden Hack - Presentation</a><br><a href='http://trygga.meteor.com/'>Our prototype website</a>", 
+  	"links": "<a href='http://eastswedenhack.se/esh15/prisutdelning-2015'>East Sweden Hack - Presentation</a>", 
   	"video": "",
     "show": "true"
 	},
@@ -45,7 +45,7 @@
     "description": "<p>Reverbify is an application where the user can upload, record or choose a default sound that can be 'reverbified'. To 'reverbify' is to add a room's reverb to the chosen sound and then play it as it would sound in that room. This was a short group project in the course Sound Physics (TFYA65). We recorded the impulse response in a couple of different rooms with calculations done in Matlab. We later used these and some other impulse responses from the free sound bank Samplicity. Our group of three put in more work than most groups for this of project. It would have been enough to just do the calculations in Matlab but we wanted to build a good web application as well.</p>",
   	"skills": "meteor.js, web audio API, bootstrap, Ionic, Matlab",
     "duration": "Sept - Oct 2015",
-    "links": "<a href='http://reverbify.meteor.com/'>Website</a><br><a href='https://github.com/codingInSpace/reverbify'>Source code</a><br><a href='lists/TFYA65.pdf'>Project report (Swedish) </a>",
+    "links": "<a href='https://github.com/codingInSpace/reverbify'>Source code</a><br><a href='../lists/TFYA65.pdf'>Project report (Swedish) </a>",
   	"video": "",
     "show": "false"
 	},
@@ -95,7 +95,7 @@
     "description": "<p>A website about LEGO! A group project in Electronic Publishing (TNMK30) where the user can search for specific Lego bits in a database. This was my (and the rest of the group's) first website and it was developed in a group with five members. I was in charge of the database-handling together with another group member while the others were in charge of the design and forum.</p>",
   	"skills": "PHP, mySQL, basic web development",
     "duration": "Nov - Dec 2013", 
-  	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php'>Check it out!</a><br><a href='lists/TNMK30.pdf'>Project report (Swedish)</a>", 
+  	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php'>Check it out!</a><br><a href='../lists/TNMK30.pdf'>Project report (Swedish)</a>", 
   	"video": "",
     "show": "false"
 	}, 

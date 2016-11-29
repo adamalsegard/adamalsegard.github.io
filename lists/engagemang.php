@@ -26,7 +26,7 @@
 	  "title":"Form teacher (Klassföreståndare)", 
     "description": "<p>As a form teacher I was employed by Linköping University to guide the new MT-students during the first few months of their first semester. In total I held 6 lectures where I taught everything from how to use the 'student portal' to different study techniques. During the welcoming period I also participated in most activities as to gain my students' trust, which I feel I did. It was lots of fun.</p>",
   	"skills": "leadership, teaching, responsibility, organization",
-    "duration": "July - Okt 2015",
+    "duration": "July - Oct 2015",
     "volunteer": "employment", 
   	"links": "",
   	"video": "",
@@ -83,7 +83,7 @@
   	"skills": "cooperation, planning, leadership, organization, creativity, improvisation, performing",
     "duration": "Jan 2014 - Jan 2015", 
   	"volunteer": "volunteer",
-    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='2014.legionen.nu'>Our old website</a>", 
+    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='http://2014.legionen.nu'>Our old website</a>", 
   	"video": "",
     "show": "true"
 	},
