@@ -6,7 +6,7 @@
     "skills": "Python, OpenCV, feature tracking",
     "duration": "Oct - Nov 2016", 
     "links": "<a href='https://github.com/wojdziw/computer-vision-project'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4' frameborder='0' allowfullscreen='true'></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4'></iframe></div>",
     "show": "true"
   },
 
