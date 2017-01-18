@@ -6,7 +6,7 @@
     "skills": "Python, OpenCV, feature tracking",
     "duration": "Oct - Nov 2016", 
     "links": "<a href='https://github.com/wojdziw/computer-vision-project'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4' frameborder="0" allowfullscreen='true'></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/32CciOH5sw4' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
 
@@ -16,7 +16,7 @@
     "skills": "C#, Unity3D, game dev, Vuforia tracking, network",
     "duration": "Mars - May 2016", 
     "links": "<a href='lists/TNM094.pdf'>Project report (Swedish)</a><br><a href='https://github.com/AndroidHMD/TowerVR'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/2eBE4bzM2sw' allowfullscreen=''></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/2eBE4bzM2sw' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
 
@@ -26,7 +26,7 @@
     "skills": "OpenGL rendering pipeline, GLSL shaders, OpenCL",
     "duration": "Jan - Mars 2016", 
     "links": "<a href='lists/TNM085.pdf'>Project report (English)</a><br><a href='https://github.com/Hedlundaren/vattenoverhuvudet'>Source code</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/15oeGll4-80' allowfullscreen=''></iframe></div>",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/15oeGll4-80' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
 
@@ -76,7 +76,7 @@
   	"skills": "UX, Android Studio, java, AndEngine",
     "duration": "Nov - Dec 2014", 
   	"links": "<a href='https://github.com/Danielbook/TNM040-KOMA-Projekt'>Source code</a><br><a href='lists/TNM040.pdf'>Project report (Swedish)</a>", 
-  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/crZpxgsYBw8' allowfullscreen=''></iframe></div>",
+  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/crZpxgsYBw8' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
 
@@ -86,7 +86,7 @@
   	"skills": "film making, leadership, basic web development",
     "duration": "Okt - Dec 2013", 
   	"links": "<a href='growth/old/index.html'>Website 1</a><br><a href='growth/index.html'>Website 2 (by Benjamin Wiberg)</a><br><a href='lists/TNM088.pdf'>Project report (Swedish)</a>", 
-  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://player.vimeo.com/video/85702031' allowfullscreen=''></iframe></div>",
+  	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://player.vimeo.com/video/85702031' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   }, 
   	  
