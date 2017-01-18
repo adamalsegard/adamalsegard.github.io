@@ -1,4 +1,4 @@
-﻿{
+{
 "records": [
   	{
 	  "title":"Paymaster MTD2016", 
@@ -7,7 +7,7 @@
   	"duration": "July 2015 - June 2016", 
   	"volunteer": "volunteer",
     "links": "<a href='http://www.medieteknikdagarna.se/'>MTD16's website</a>", 
-    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/tPc6Rm6njaA'></iframe></div>", 
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/tPc6Rm6njaA' allowfullscreen=''></iframe></div>", 
     "show": "true"
 	},
 

@@ -1,0 +1,4 @@
+Notes:
+
+- 2014.legionen.nu doesn't work because they changed platform temporarely, hopefully it will be fixed soon.
+- Removed trygga.meteor.com and reverbify.meteor.com because they changed to payed access and removed all free apps.
