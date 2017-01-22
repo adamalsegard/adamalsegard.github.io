@@ -6,7 +6,7 @@
     "skills": "leadership, administration of a big event, accounting, teamwork",
   	"duration": "July 2015 - June 2016", 
   	"volunteer": "volunteer",
-    "links": "<a href='http://www.medieteknikdagarna.se/'>MTD16's website</a>", 
+    "links": "<a href='http://www.medieteknikdagarna.se/' target='_blank'>MTD16's website</a>", 
     "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/tPc6Rm6njaA' frameborder='0' allowfullscreen='true'></iframe></div>", 
     "show": "true"
 	},
@@ -17,7 +17,7 @@
     "skills": "marketing, public relations",
     "duration": "Jan - April 2016", 
     "volunteer": "volunteer",
-    "links": "<a href='http://www.cawards.se/'>CAwards's website</a>", 
+    "links": "<a href='http://www.cawards.se/' target='_blank'>CAwards's website</a>", 
     "video": "",
     "show": "true"
   },
@@ -39,7 +39,7 @@
     "skills": "leadership, teaching, basketball",
     "duration": "Sept 2015 - May 2016", 
     "volunteer": "volunteer",
-    "links": "<a href='http://naffi.studorg.liu.se/'>NAFFI's homepage</a>",
+    "links": "<a href='http://naffi.studorg.liu.se/' target='_blank'>NAFFI's homepage</a>",
     "video": "",
     "show": "false"
   },
@@ -50,7 +50,7 @@
     "skills": "communication, organization",
     "duration": "Sept 2013 - June 2016", 
     "volunteer": "volunteer",
-    "links": "<a href='http://www.lintek.liu.se/utbildning/foerbaettra-din-utbildning/'>LinTek's description of the position</a>",
+    "links": "<a href='http://www.lintek.liu.se/utbildning/foerbaettra-din-utbildning/' target='_blank'>LinTek's description of the position</a>",
     "video": "",
     "show": "false"
   },
@@ -61,7 +61,7 @@
     "skills": "event planning",
     "duration": "May 2014 - May 2015", 
     "volunteer": "volunteer",
-    "links": "<a href='http://stubinen.org/'>Stubinen's official website</a>", 
+    "links": "<a href='http://stubinen.org/' target='_blank'>Stubinen's official website</a>", 
     "video": "",
     "show": "false"
   },
@@ -83,7 +83,7 @@
   	"skills": "cooperation, planning, leadership, organization, creativity, improvisation, performing",
     "duration": "Jan 2014 - Jan 2015", 
   	"volunteer": "volunteer",
-    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9'>Some of our performances</a><br><a href='http://2014.legionen.nu'>Our old website</a>", 
+    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9' target='_blank'>Some of our performances</a><br><a href='http://2014.legionen.nu' target='_blank'>Our old website</a>", 
   	"video": "",
     "show": "true"
 	},
@@ -94,7 +94,7 @@
     "skills": "interviewing, compromising, cooperation",
     "duration": "Nov 2013 - Mars 2014", 
     "volunteer": "volunteer",
-    "links": "<a href='http://medieteknik.nu/se/association'>Current Board Members</a>", 
+    "links": "<a href='http://medieteknik.nu/se/association' target='_blank'>Current Board Members</a>", 
     "video": "",
     "show": "false"
   },
@@ -105,7 +105,7 @@
     "skills": "public relations, service minded, social interaction",
     "duration": "Sept 2013 - May 2016", 
     "volunteer": "volunteer/employed",
-    "links": "<a href='http://trappan.nu/'>Trappan's official website</a>",
+    "links": "<a href='http://trappan.nu/' target='_blank'>Trappan's official website</a>",
     "video": "",
     "show": "false"
   },
@@ -116,7 +116,7 @@
     "skills": "leadership, openness, social relations, mindfulness",
     "duration": "Summer 2008", 
     "volunteer": "volunteer",
-    "links": "<a href='http://www.cisv.org/'>CISV official website</a>",
+    "links": "<a href='http://www.cisv.org/' target='_blank'>CISV official website</a>",
     "video": "<img class='img-rounded' src='../img/eng-cisv.jpg' alt='Participants of Pippi Village 2008!' />",
     "show": "false"
   },
@@ -160,7 +160,7 @@
     "skills": "rhetoric, presentation",
     "duration": "Nov 2009", 
     "volunteer": "volunteer",
-    "links": "<a href='https://start.varldensbarn.se/'>Världens barn official website</a>", 
+    "links": "<a href='https://start.varldensbarn.se/' target='_blank'>Världens barn official website</a>", 
     "video": "<img class='img-rounded' src='../img/eng-gala.jpg' alt='Acting as Master of Ceremonies' />",
     "show": "false"
   },

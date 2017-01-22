@@ -27,7 +27,7 @@ myApp.filter('rawHtml', ['$sce', function($sce){
 
 
 
-$("#bs-js-navbar-scrollspy li a[href^='#']").on('click', function(event) {
+$("#bs-js-navbar-scrollspy a[href^='#']").on('click', function(event) {
   var target;
   target = this.hash;
 
