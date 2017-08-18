@@ -7,7 +7,8 @@
   font-family: 'Arvo';
   font-style: normal;
   font-weight: 400;
-  src: local("Arvo"), url(https://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff"); }
+  src: local("Arvo"), url(https://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff"); 
+}
 
 /* general styles */
 html, body {
@@ -15,7 +16,8 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
- /* needed for container min-height */}
+ /* needed for container min-height */
+}
 
 /* padded section */
 .pad-section {

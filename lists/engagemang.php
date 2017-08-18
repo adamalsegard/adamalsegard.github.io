@@ -1,6 +1,6 @@
 {
 "records": [
-  	{
+  {
 	  "title":"Paymaster MTD2016", 
     "description": "<p>Responsible for budgeting and accounting the finances of MTD2016. The MTD group is a committee of the Media Technology Association with the objective to arrange a career fair for the students at MT. The Media Technology Days are two days filled with a company fair, lectures, workshops and other events. Everything ends with a much appreciated banquet. I was also responsible, together with the project manager, for the recruitment for the remaining positions at the committee. MTD is the biggest career fair for students in Norrköping.</p>",
     "skills": "leadership, administration of a big event, accounting, teamwork",
@@ -83,7 +83,7 @@
   	"skills": "cooperation, planning, leadership, organization, creativity, improvisation, performing",
     "duration": "Jan 2014 - Jan 2015", 
   	"volunteer": "volunteer",
-    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9' target='_blank'>Some of our performances</a><br><a href='http://2014.legionen.nu' target='_blank'>Our old website</a>", 
+    "links": "<a href='https://www.youtube.com/playlist?list=PLu8Zcm3s2U4sMBHBFAzeGou1w8_fchmo9' target='_blank'>Some of our performances</a><br><!--<a href='http://2014.legionen.nu' target='_blank'>Our old website</a>-->", 
   	"video": "",
     "show": "true"
 	},
