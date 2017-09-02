@@ -2,8 +2,8 @@
 "records": [
   {
     "title":"ETiCCS application", 
-    "description": "<p>Development of a digital data management system for a real life cervical cancer screening project in the Dabat region of Ethiopia.</p><p>Given as a group project in CS3249 - UI development. The assignment came from ETiCCS, Emerging Technologies in Cervical Cancer Screening, an international organisation that wanted us to develop an application to be used in the field in Ethiopia. The assignment included 9 different User Interfaces plus a registration/sign-in page. The application was built with React.js, Redux, Node.js and RethinkDB.</p><p>My team won <span class="prize">First Prize</span> for our project and ETiCCS picked our application to use for their screening process. Me and one more team member continued working on the application to get it ready for deployment.",
-    "skills": "<span class="programming">React.js</span>, <span class="algorithms">Redux</span>, <span class="programming">Node.js</span>, <span class="prize">RethinkDB</span>",
+    "description": "<p>Development of a digital data management system for a real life cervical cancer screening project in the Dabat region of Ethiopia.</p><p>Given as a group project in CS3249 - UI development. The assignment came from ETiCCS, Emerging Technologies in Cervical Cancer Screening, an international organisation that wanted us to develop an application to be used in the field in Ethiopia. The assignment included 9 different User Interfaces plus a registration/sign-in page. The application was built with React.js, Redux, Node.js and RethinkDB.</p><p>My team won <span class='prize'>First Prize</span> for our project and ETiCCS picked our application to use for their screening process. Me and one more team member continued working on the application to get it ready for deployment.",
+    "skills": "<span class='programming'>React.js</span>, <span class='algorithms'>Redux</span>, <span class='programming'>Node.js</span>, <span class='prize'>RethinkDB</span>",
     "category": "web",
     "duration": "Mars - May 2017", 
     "links": "", 
@@ -13,7 +13,7 @@
   {
     "title":"The Tetrominator", 
     "description": "A group project in the module CS3243 - Introduction to AI, where we developed and trained an AI agent to clear as many rows as possible in the classic game Tetris.</p><p>We used a genetic algorithm with particle swarm to train our agent on a set of features. To optimize the training time we parallelized the code for evaluating each individual in our population. With this we achieved a logarithmic speedup. In the end we cleared a few hundred thousand rows after a night of training.",
-    "skills": "<span class="programming">Java</span>, <span class="algorithms">Genetic algorithms</span>, <span class="programming">Parallel programming</span>, <span class="categories">AI training</span>",
+    "skills": "<span class='programming'>Java</span>, <span class='algorithms'>Genetic algorithms</span>, <span class='programming'>Parallel programming</span>, <span class='categories'>AI training</span>",
     "category": "AI",
     "duration": "Feb - April 2017", 
     "links": "<a href='https://github.com/wojdziw/intro-to-ai-projectcomputer-vision-project' target='_blank'>Source code</a>", 
@@ -23,7 +23,7 @@
   {
     "title":"Computer Vision project", 
     "description": "<p>Group project done at NUS with 4 other exchange students. The objective was to track all 4 players and the ball from 7 video clips of volleyball games from the Summer Olympics 2016. The position of all 5 items should then be projected onto a top-down view of the court. Distance moved and number of jumps by each player should be calculated and displayed as well as a stitched video of the full court.</p><p>I worked mainly on the player tracking. We managed to track 26 of 28 players reasonably well. My part was done fairly quick so thereafter I helped my fellow group members. The stitching was done by finding the homography matrices frame-to-frame and then warp the image to a starting frame. From the frame-to-frame homography we could also do background extraction/subtraction. This could have improved the player and ball tracking but was unfortunately completed very late in the project.</p><p>The top-down homography matrix was found by tracking the corners of the court and the net posts. Small noise in this tracking gives large errors in the output video. If we'd smoothed the position arrays before generating the video it would have been a more pleasing result.</p>",
-    "skills": "<span class="programming">Python</span>, <span class="prize">OpenCV</span>, <span class="algorithms">Feature tracking</span>",
+    "skills": "<span class='programming'>Python</span>, <span class='prize'>OpenCV</span>, <span class='algorithms'>Feature tracking</span>",
     "category": "image processing",
     "duration": "Oct - Nov 2016", 
     "links": "<a href='https://github.com/wojdziw/computer-vision-project' target='_blank'>Source code</a>", 
