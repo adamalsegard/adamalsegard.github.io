@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en" class="no-js">
-<!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
@@ -18,12 +13,12 @@
   <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
 
   <!-- Bootstrap -->
-  <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>-->
-  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  <!--<script type="text/javascript" src="js/angular.min.js"></script>-->
 </head>
 
 <body ng-app="myApp">
@@ -49,11 +44,8 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
   </nav>
-
 
   <!-- Section 1 - home -->
   <div id="home" class="home">
@@ -119,9 +111,6 @@
                   want to say hi! :D
                 </p>
               </div>
-              <!--<div class="col-sm-4">
-                  <img class="img-rounded" src="img/side_pic-1-800.jpg" alt="Just a fun pic" />
-                </div>-->
             </div>
           </div>
         </div>
@@ -132,10 +121,8 @@
 
   <!-- Section 3 - Interlude 1 -->
   <div id="sec3">
-    <div class="bcg" data-bottom="background-color:rgb(1,36,1);" data-top="background-color:rgb(56,59,56);" data-anchor-target="#sec3">
-    </div>
+    <div class="bcg" data-bottom="background-color:rgb(1,36,1);" data-top="background-color:rgb(56,59,56);" data-anchor-target="#sec3"></div>
   </div>
-
 
   <!-- Section 4 - Portfolio -->
   <div id="portfolio" class="pad-section" ng-controller="portfolio">
@@ -147,18 +134,17 @@
         <div class="panel-body">
           <div class="row text-center">
             <div class="col-sm-8">
-              <h3> {{ x.title }}</h3>
+              <h3>{{ x.title }}</h3>
             </div>
             <div class="col-sm-4">
-              <!--<img class="img-rounded" src="img/{{ x.title }}.png" alt="logo"/>--></div>
+              <h4><span class="categories">{{ x.category }}</span></h4>
+            </div>
           </div>
           <div class="row text-center">
             <div class="col-sm-8">
-              <!-- <a href="#{{ x.title }}" data-toggle="collapse">Description</a>-->
-              <!--<p id="{{ x.title }}" class="collapse in"> {{ x.description }} </p>-->
               <p ng-bind-html="x.description | rawHtml"></p><br>
               <h5>Developed skills in:</h5>
-              <p> {{ x.skills }}</p>
+              <p ng-bind-html="x.skills | rawHtml"></p>
             </div>
             <div class="col-sm-4">
               <h4>{{ x.duration }}</h4>
@@ -175,9 +161,7 @@
             <div class="col-sm-4">
               <a href="html/portfolio.html">See more finished projects...</a>
             </div>
-            <div class="col-sm-8">
-              <!-- Thumbnails med gömda project? -->
-            </div>
+            <div class="col-sm-8"></div>
           </div>
         </div>
       </div>
@@ -187,8 +171,7 @@
 
   <!-- Section 5 - Interlude 2 -->
   <div id="sec5">
-    <div class="bcg" data-bottom="background-color:rgb(56,59,56);" data-top="background-color: rgb(50, 0, 0);" data-anchor-target="#sec5">
-    </div>
+    <div class="bcg" data-bottom="background-color:rgb(56,59,56);" data-top="background-color: rgb(50, 0, 0);" data-anchor-target="#sec5"></div>
   </div>
 
   <!-- Sekction 6 - Commitments -->
@@ -226,9 +209,7 @@
             <div class="col-sm-4">
               <a href="html/engagemang.html">See more commitments...</a>
             </div>
-            <div class="col-sm-8">
-              <!-- Thumbnails med tidigare engagemang? -->
-            </div>
+            <div class="col-sm-8"></div>
           </div>
         </div>
       </div>
@@ -238,8 +219,7 @@
 
   <!-- Section 7 - Interlude 3 -->
   <div id="sec7">
-    <div class="bcg" data-bottom="background-color:rgb(50, 0, 0);" data-top="background-color: rgb(0, 55, 110);" data-anchor-target="#sec7">
-    </div>
+    <div class="bcg" data-bottom="background-color:rgb(50, 0, 0);" data-top="background-color: rgb(0, 55, 110);" data-anchor-target="#sec7"></div>
   </div>
 
   <!-- Section 8 - Contact -->
@@ -252,7 +232,6 @@
             <div class="col-sm-6 ">
               <h4> Feel free to contact me on social media!</h4>
               <a href="mailto:adam.alsegard@gmail.com">Or send me a nice e-mail!</a>
-
             </div>
             <div class="col-sm-6 ">
               <h4> Here's my resumé</h4>
@@ -280,12 +259,11 @@
     }
   </script>
   <script type="text/javascript" src="js/main.js"></script>
-  <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
   <script>
     window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.j"><\/script>')
   </script>
 
 </body>
-
 </html>

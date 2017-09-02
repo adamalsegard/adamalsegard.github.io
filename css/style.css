@@ -34,6 +34,33 @@ a:hover {
   color: #333333;
 }
 
+.prize {
+  color: #cca300;
+}
+
+.categories {
+  color: #5c85d6;
+}
+
+.programming {
+  color: #009900;
+}
+
+.humanSkills {
+  color: #ff9900;
+}
+
+.algorithms {
+  color: #a1127d;
+}
+
+@media (min-width: 768px) {
+  .categories {
+    display: block;
+    padding-top: 2vh;
+  }
+}
+
 /* additional sections */
 #home {
   background: url(../img/bg_pic-1-1200.jpg) no-repeat center center fixed; 

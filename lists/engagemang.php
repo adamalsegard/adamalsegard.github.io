@@ -1,6 +1,17 @@
 {
 "records": [
   {
+    "title":"Teaching Assistant", 
+    "description": "<p>I was a teaching assistant for first year students in the course TND012 - Foundations of Programming.</p><p>The work entailed being responsible for 8 lab sessions á 4 hours. Programming language used was C++.</p>",
+    "skills": "C++ programming, teaching, communication",
+    "duration": "Aug 2017 - Oct 2017", 
+    "volunteer": "employment",
+    "links": "", 
+    "video": "",
+    "show": "true"
+  },
+
+  {
 	  "title":"Paymaster MTD2016", 
     "description": "<p>Responsible for budgeting and accounting the finances of MTD2016. The MTD group is a committee of the Media Technology Association with the objective to arrange a career fair for the students at MT. The Media Technology Days are two days filled with a company fair, lectures, workshops and other events. Everything ends with a much appreciated banquet. I was also responsible, together with the project manager, for the recruitment for the remaining positions at the committee. MTD is the biggest career fair for students in Norrköping.</p>",
     "skills": "leadership, administration of a big event, accounting, teamwork",
