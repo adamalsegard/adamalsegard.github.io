@@ -72,6 +72,11 @@ a:hover {
   text-decoration-color: #cc0099;
 }
 
+.panel-slim {
+  margin: 0px;
+  padding: 0px;
+}
+
 /* additional sections */
 #home {
   background: url(../img/bg_pic-1-1200.jpg) no-repeat center center fixed; 
@@ -257,10 +262,10 @@ a:hover {
   color: #DEDEDE;
 }
 #engagemang  a {
-  color: #363636;
+  color: #333333;
 }
 #engagemang a:hover {
-  color: #333333;
+  color: #808080;
 }
 
 #sec7 .bcg{
