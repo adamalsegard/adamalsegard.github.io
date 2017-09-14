@@ -29,7 +29,7 @@
     "category": "rendering",
     "duration": "Jan - Mars 2017", 
     "links": "<a href='https://github.com/adamalsegard/NUS-Modules/tree/master/CS4247' target='_blank'>Source code</a>", 
-    "video": "<img class='img-rounded' src='../img/cs4247_assign3.png' alt='Result CS4247 - Assign 2' /><br><img class='img-rounded' src='../img/cs4247_assign3.png' alt='Result CS4247 - Assign 3' />",
+    "video": "<img class='img-rounded' src='../img/cs4247_assign2.png' alt='Result CS4247 - Assign 2' /><br><img class='img-rounded' src='../img/cs4247_assign3.png' alt='Result CS4247 - Assign 3' />",
     "show": "true"
   },
 
