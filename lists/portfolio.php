@@ -10,6 +10,7 @@
     "video": "",
     "show": "true"
   },
+
   {
     "title":"The Tetrominator", 
     "description": "A group project in the module CS3243 - Introduction to AI, where we developed and trained an AI agent to clear as many rows as possible in the classic game Tetris.</p><p>We used a genetic algorithm with particle swarm to train our agent on a set of features. To optimize the training time we parallelized the code for evaluating each individual in our population. With this we achieved a logarithmic speedup. In the end we cleared a few hundred thousand rows after a night of training.",
@@ -20,6 +21,18 @@
     "video": "",
     "show": "true"
   },
+
+  {
+    "title":"CS4247 assignments", 
+    "description": "<p>3 different assignments I did in the course CS4247 - Graphics Rendering Techniques at NUS. More assignments and coding (at both LiU and NUS) can be found on my GitHub page.</p><p>Assign 1 - Real-time rendering with texture mapping and reflections. The bonus assignment was to add shadows with the shadow mapping method.</p><p>Assign 2 - Whitted Ray Tracing. I implemented hit detection for spheres and completed the recursive tracing algorithm, for shadows and reflections. The bonus assignment was to extend the algorithm to render transparent objects as well. After finishing the code I created a new scene, which is shown to the right.</p><p>Assign 3 - Progressive Refinement Radiosity. The assignment was to complete the radiosity loop and use it on the Cornell box scene. Then I created a new scene, which is shown to the right.</p>",
+    "skills": "<span class='programming'>C++</span>, <span class='technique'>Global Illumination</span>, <span class='programming'>OpenGL</span>, <span class='technique'>Real-time rendering</span>",
+    "category": "rendering",
+    "duration": "Jan - Mars 2017", 
+    "links": "<a href='https://github.com/adamalsegard/NUS-Modules/tree/master/CS4247' target='_blank'>Source code</a>", 
+    "video": "<img class='img-rounded' src='../img/cs4247_assign3.png' alt='Result CS4247 - Assign 2' /><br><img class='img-rounded' src='../img/cs4247_assign3.png' alt='Result CS4247 - Assign 3' />",
+    "show": "true"
+  },
+
   {
     "title":"Computer Vision project", 
     "description": "<p>Group project done at NUS with 4 other exchange students. The objective was to track all 4 players and the ball from 7 video clips of volleyball games from the Summer Olympics 2016. The position of all 5 items should then be projected onto a top-down view of the court. Distance moved and number of jumps by each player should be calculated and displayed as well as a stitched video of the full court.</p><p>I worked mainly on the player tracking. We managed to track 26 of 28 players reasonably well. My part was done fairly quick so thereafter I helped my fellow group members. The stitching was done by finding the homography matrices frame-to-frame and then warp the image to a starting frame. From the frame-to-frame homography we could also do background extraction/subtraction. This could have improved the player and ball tracking but was unfortunately completed very late in the project.</p><p>The top-down homography matrix was found by tracking the corners of the court and the net posts. Small noise in this tracking gives large errors in the output video. If we'd smoothed the position arrays before generating the video it would have been a more pleasing result.</p>",
