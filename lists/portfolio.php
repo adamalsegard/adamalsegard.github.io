@@ -7,7 +7,7 @@
     "category": "web",
     "duration": "Mars - May 2017", 
     "links": "", 
-    "video": "",
+    "video": "<img class='img-rounded' src='../img/ETiCCS.png' alt='Screenshot from the ETiCCS application' />",
     "show": "true"
   },
 
