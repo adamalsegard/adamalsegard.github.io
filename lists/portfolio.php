@@ -17,7 +17,7 @@
     "skills": "<span class='programming'>Java</span>, <span class='technique'>Genetic algorithms</span>, <span class='programming'>Parallel programming</span>",
     "category": "AI",
     "duration": "Feb - April 2017", 
-    "links": "<a href='https://github.com/wojdziw/intro-to-ai-projectcomputer-vision-project' target='_blank'>Source code</a>", 
+    "links": "<a href='https://github.com/wojdziw/intro-to-ai-project' target='_blank'>Source code</a>", 
     "video": "",
     "show": "true"
   },
