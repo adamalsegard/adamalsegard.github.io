@@ -18,10 +18,10 @@
     "category": "AI",
     "duration": "Feb - April 2017", 
     "links": "<a href='https://github.com/wojdziw/intro-to-ai-project' target='_blank'>Source code</a>", 
-    "video": "",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/NyMC-5ygMIc' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
-
+  
   {
     "title":"CS4247 assignments", 
     "description": "<p>3 different assignments I did in the course CS4247 - Graphics Rendering Techniques at NUS. More assignments and coding (at both LiU and NUS) can be found on my GitHub page.</p><p>Assign 1 - Real-time rendering with texture mapping and reflections. The bonus assignment was to add shadows with the shadow mapping method.</p><p>Assign 2 - Whitted Ray Tracing. I implemented hit detection for spheres and completed the recursive tracing algorithm, for shadows and reflections. The bonus assignment was to extend the algorithm to render transparent objects as well. After finishing the code I created a new scene, which is shown to the right.</p><p>Assign 3 - Progressive Refinement Radiosity. The assignment was to complete the radiosity loop and use it on the Cornell box scene. Then I created a new scene, which is shown to the right.</p>",
