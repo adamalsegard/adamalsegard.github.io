@@ -6,7 +6,7 @@
     "skills": "<span class='programming'>React.js</span>, <span class='technique'>Redux</span>, <span class='programming'>Node.js</span>, <span class='program'>RethinkDB</span>",
     "category": "web",
     "duration": "Mars - May 2017", 
-    "links": "", 
+    "links": "<a href='lists/CS3249.pdf' target='_blank'>Project report (English)</a><br>", 
     "video": "<img class='img-rounded' src='../img/ETiCCS.png' alt='Screenshot from the ETiCCS application' />",
     "show": "true"
   },
@@ -17,7 +17,7 @@
     "skills": "<span class='programming'>Java</span>, <span class='technique'>Genetic algorithms</span>, <span class='programming'>Parallel programming</span>",
     "category": "AI",
     "duration": "Feb - April 2017", 
-    "links": "<a href='https://github.com/wojdziw/intro-to-ai-project' target='_blank'>Source code</a>", 
+    "links": "<a href='lists/CS3243.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/wojdziw/intro-to-ai-project' target='_blank'>Source code</a>", 
     "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/NyMC-5ygMIc' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
