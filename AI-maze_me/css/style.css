@@ -1,0 +1,163 @@
+body {
+  background: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica';
+  overflow: hidden;
+}
+
+h4 {
+  margin: 0em;
+}
+
+/* Pop-up window, centered */
+.centeredPopUp {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin: 0px;
+  display: inline;
+  border: 2px solid white;
+}
+
+/* Command text inside pop-ups */
+.wrap {
+  text-align: center;
+}
+.commands {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Bottom-left corner */
+#notes {
+  position: absolute;
+  left: 1vw;
+  bottom: 1vw;
+  padding: 1vh;
+  color: #a0a0a0;
+  display: block;
+  border: 2px solid #636363;
+  background-color: rgba(43, 43, 43, 0.75);
+}
+
+/* Top-left corner */
+#energy-info {
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  padding: 1vh;
+  color: #a0a0a0;
+  display: block;
+  border: 2px solid #636363;
+  background-color: rgba(43, 43, 43, 0.75);
+}
+
+/* Directly under other energy */
+#versus-energy-info {
+  position: absolute;
+  left: 1vw;
+  top: 8vw;
+  padding: 1vh;
+  color: #a0a0a0;
+  display: block;
+  border: 2px solid #636363;
+  background-color: rgba(43, 43, 43, 0.75);
+}
+
+/* Energy-subtraction animation (webkit browsers) */
+@-webkit-keyframes energySub {
+  0% {
+    opacity: 0.0;
+  }
+  20% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    opacity: 1.0;
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0.0;
+  }
+}
+
+/* Energy-subtraction animation */
+@keyframes energySub {
+  0% {
+    opacity: 0.0;
+  }
+  20% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    opacity: 1.0;
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0.0;
+  }
+}
+
+/* Animation class, will run one time */
+.run-animation {
+  position: relative;
+  -webkit-animation: energySub 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+  animation: energySub 1s ease-out;
+  animation-iteration-count: 1;
+}
+
+/* Animate energy decrease */
+#energy-decrease {
+  position: relative;
+  z-index: 5;
+  left: calc(1vw + 125px);
+  top: 1vw;
+  opacity: 0.0;
+  color: #DDE01F;
+  background: transparent;
+}
+
+/* Top-right corner */
+#level-info {
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  padding: 1vh;
+  color: #a0a0a0;
+  border: 2px solid #636363;
+  background-color: rgba(43, 43, 43, 0.75);
+}
+
+/* Bottom-right corner */
+#maze-map {
+  text-align: center;
+  position: absolute;
+  right: 1vw;
+  bottom: 1vw;
+  padding: 2vh;
+  color: #a0a0a0;
+  border: 2px solid #636363;
+  background-color: rgba(43, 43, 43, 0.75);
+}
+
+/* Restart button class*/
+.rBtn {
+  background-color: #a0a0a0;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.rBtn:hover {
+  background-color: #474747;
+  color: white;
+}
