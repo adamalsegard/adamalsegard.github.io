@@ -56,7 +56,7 @@ var agentToUse = 0,
   numberOfAgents = 0,
   trainAI = false,
   stepsTaken = 0,
-  maxTrainingSteps = 500,
+  maxTrainingSteps = 1500,
   increaseMazeSizeAfterXRounds = 50;
 
 // Game parameters
@@ -64,7 +64,9 @@ var energy = 0,
   initEnergy = 500,
   mazeDimension = 13,
   framesPerStep = 50,
+  DEFAULT_MAN_FPS = 50,
   DEFAULT_AI_FPS = 10,
+  DEFAULT_MAZEDIM_START = 13,
   score = 0,
   completedLevelBonus = 0,
   ballRadius = 0.25,
@@ -622,7 +624,7 @@ function gameLoop() {
 
       // Update static display metrics.
       light.intensity = 0;
-      var level = Math.floor((mazeDimension - 1) / 2 - 5); // Assumes 13 is the starting mazeDim 
+      var level = Math.floor((mazeDimension - 1) / 2 - 5); // Assumes 13 is the starting mazeDim
       $('#level').html('Level ' + level);
       $('#maze-size').html('Maze size: ' + mazeDimension);
       $('#training-round').html('Training round: ' + getTrainingRound());
@@ -670,9 +672,9 @@ function gameLoop() {
         if (energy > 0) {
           updateCameraPosition();
         } else {
-          keyAxis = [0,0];
+          keyAxis = [0, 0];
         }
-        if(energyVS > 0) {
+        if (energyVS > 0) {
           if (iter % framesPerStepVS == 0) {
             nextStepAI = getNextAIStep();
             iter = 0;
@@ -682,7 +684,6 @@ function gameLoop() {
         } else {
           nextStepAI = new THREE.Vector2(0, 0);
         }
-        
       } else {
         // gameMode is undefined, pause everything!
       }
@@ -711,14 +712,16 @@ function gameLoop() {
 
       // If we are in a training session we want to continue until max iterations, so we can learn even after we reach the goal state.
       if (trainAI) {
-        //if (stepsTaken > maxTrainingSteps || energy <= 0) {
-        if (
-          stepsTaken > maxTrainingSteps ||
-          energy <= 0 ||
-          ballBody.position.almostEquals(goalPos, 0.3)
-        ) {
-          stepsTaken = 0;
-          gameState = 'fadeOut';
+        /*var stopByGoal =
+          getTrainingRound() > 250
+            ? stepsTaken > maxTrainingSteps ||
+              energy <= 0 ||
+              ballBody.position.almostEquals(goalPos, 0.3)
+            : stepsTaken > maxTrainingSteps || energy <= 0; 
+          if (stopByGoal) { */
+          if (stepsTaken > maxTrainingSteps || energy <= 0) {
+            stepsTaken = 0;
+            gameState = 'fadeOut';
         }
       } else if (gameMode == 'versus') {
         if (energy <= 0 && energyVS <= 0) {
@@ -902,6 +905,7 @@ $('#start-ai').click(() => {
   trainAI = false;
   gameMode = 'ai';
   gameState = 'initLevel';
+  framesPerStep = DEFAULT_AI_FPS;
 });
 
 $('#start-manual').click(() => {
@@ -915,6 +919,7 @@ $('#start-manual').click(() => {
   $('#versus-energy-info').hide();
   gameMode = 'manual';
   gameState = 'initLevel';
+  framesPerStep = DEFAULT_MAN_FPS;
 });
 
 $('#start-versus').click(() => {
@@ -930,6 +935,8 @@ $('#start-versus').click(() => {
   gameMode = 'versus';
   levelsCompleted = 0;
   gameState = 'initLevel';
+  framesPerStep = DEFAULT_MAN_FPS;
+  mazeDimension = DEFAULT_MAZEDIM_START;
 });
 
 $('#restartBtn').click(() => {
@@ -1074,6 +1081,7 @@ $(document).ready(function() {
     agentToUse = createNewAgent();
     $('#agent').html('Agent: ' + agentToUse);
     trainAI = true;
+    framesPerStep = DEFAULT_AI_FPS;
     gameState = 'initLevel';
   });
 

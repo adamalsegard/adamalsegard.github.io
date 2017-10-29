@@ -1,6 +1,17 @@
 {
 "records": [
   {
+    "title":"AI-maze me", 
+    "description": "<p>A maze solving game made for web browsers. An AI agent has been trained with feature based Q-learning to solve generic mazes with multiple materials. Most other implementations of Q-learning for maze solving associates a state with a placement in the maze. This project instead associates a state as a set of features, that represents what the agent 'sees', and can therefore solve randomly generated mazes with more ease.</p><p>The application has 3 different modes. Either the user can play manually, watch a trained AI agent solve the generated mazes or the user can play against an AI agent and try to beat it over a combination of 10 levels.</p><p>The mazes are generated with a modified backtracking algorithm. The player has an energy resource that decreases with every step, if the players goes through a material more energy is subtracted. The player has to find the way out from the maze before all energy is drained. The application is implemented in JavaScript with rendering in WebGL. Three.js is used for the graphics and Cannon.js for the physics.</p><p>This project was made in TNM095 - Artificial Intelligence for Interactive Media, at Linköping University.</p>",
+    "skills": "<span class='programming'>JavaScript</span>, <span class='technique'>Q-Learning</span>, <span class='programming'>Three.js</span>, <span class='programming'>Cannon.js</span>",
+    "category": "AI, web",
+    "duration": "Sept - Oct 2017", 
+    "links": "<a href='lists/TNM095.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/adamalsegard/AI-maze_me' target='_blank'>Source code</a><br><a href='https://adamalsegard.github.io/AI-maze_me/' target='_blank'>Live website</a>", 
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/prDETnR3zgk' frameborder='0' allowfullscreen='true'></iframe></div>",
+    "show": "true"
+  },
+
+  {
     "title":"ETiCCS application", 
     "description": "<p>Development of a digital data management system for a real life cervical cancer screening project in the Dabat region of Ethiopia.</p><p>Given as a group project in CS3249 - UI development. The assignment came from ETiCCS, Emerging Technologies in Cervical Cancer Screening, an international organisation that wanted us to develop an application to be used in the field in Ethiopia. The assignment included 9 different User Interfaces plus a registration/sign-in page. The application was built with React.js, Redux, Node.js and RethinkDB.</p><p>My team won <span class='prize'>First Prize</span> for our project and ETiCCS picked our application to use for their screening process. Me and one more team member continued working on the application to get it ready for deployment.",
     "skills": "<span class='programming'>React.js</span>, <span class='technique'>Redux</span>, <span class='programming'>Node.js</span>, <span class='program'>RethinkDB</span>",
