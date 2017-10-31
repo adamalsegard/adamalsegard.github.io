@@ -84,7 +84,7 @@
     "category": "prototyping",
     "duration": "Sept 2015", 
   	"links": "<a href='http://eastswedenhack.se/esh15/prisutdelning-2015' target='_blank'>East Sweden Hack - Presentation</a>", 
-  	"video": "",
+  	"video": "<img class='img-rounded' src='../img/Trygga.png' alt='Screenshot Trygga website' />",
     "show": "true"
 	},
 
@@ -95,7 +95,7 @@
     "category": "web",
     "duration": "Sept - Oct 2015",
     "links": "<a href='https://github.com/codingInSpace/reverbify' target='_blank'>Source code</a><br><a href='../lists/TFYA65.pdf' target='_blank'>Project report (Swedish) </a>",
-  	"video": "",
+  	"video": "<img class='img-rounded' src='../img/Reverbify_2.png' alt='Screenshot Reverbify website' />",
     "show": "false"
 	},
 
@@ -150,7 +150,7 @@
     "category": "web",
     "duration": "Nov - Dec 2013", 
   	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php' target='_blank'>Check it out!</a><br><a href='../lists/TNMK30.pdf' target='_blank'>Project report (Swedish)</a>", 
-  	"video": "",
+  	"video": "<img class='img-rounded' src='../img/Legomania.png' alt='Screenshot Legomania website' />",
     "show": "false"
 	}, 
       

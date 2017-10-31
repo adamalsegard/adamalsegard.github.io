@@ -2,9 +2,9 @@
 "records": [
   {
     "title":"Teaching Assistant", 
-    "description": "<p>I was a teaching assistant for first year students in the course TND012 - Foundations of Programming.</p><p>The work entailed being responsible for 8 lab sessions á 4 hours. Programming language used was C++.</p>",
+    "description": "<p>I was a teaching assistant for 2 different C++ programming courses.</p><p>During HT1 for the first year students in the course TND012 - Foundations of Programming</p><p>and during HT2 for second year students in TNG033 - C++ Programming.</p><p>The work entailed being responsible for a total of 16 lab sessions á 4 hours.</p>",
     "skills": "C++ programming, teaching, communication",
-    "duration": "Aug 2017 - Oct 2017", 
+    "duration": "Aug 2017 - Dec 2017", 
     "volunteer": "employment",
     "links": "", 
     "video": "",
