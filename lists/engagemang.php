@@ -1,6 +1,17 @@
 {
 "records": [
   {
+    "title":"Netlight - Next9 Adept", 
+    "description": "<p>'Next9 is a mentorship program for young professionals with high ambitions. Each year 9 students from all over Sweden are elected to be mentored and coached for 6 months.'</p><p>I was chosen as one of the 9 master students in Sweden to be part of Next9 during the autumn of 2017. Through the program I got an IT consultant at Netlight as a personal mentor with whom I had regular meetings during the semester. The program also consisted of a handful of meetings at Netlight's head office in Stockholm for the adepts. All the meetings had different themes, such as personal goals, interview techniques and CV workshop.</p>",
+    "skills": "personal skills, communication, mentorship",
+    "duration": "Sept 2017 - Dec 2017", 
+    "volunteer": "mentor program",
+    "links": "<a href='https://www.netlight.com/next9-stockholm/' target='_blank'>Next9's website</a>",
+    "video": "",
+    "show": "true"
+  },
+
+  {
     "title":"Teaching Assistant", 
     "description": "<p>I was a teaching assistant for 2 different C++ programming courses.</p><p>During HT1 for the first year students in the course TND012 - Foundations of Programming</p><p>and during HT2 for second year students in TNG033 - C++ Programming.</p><p>The work entailed being responsible for a total of 16 lab sessions á 4 hours.</p>",
     "skills": "C++ programming, teaching, communication",

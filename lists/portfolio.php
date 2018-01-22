@@ -1,6 +1,28 @@
 {
 "records": [
   {
+    "title":"Procedural Atmosphere", 
+    "description": "<p>A procedural coding project where an atmosphere is simulated with Rayleigh- and Mie-scattering and rendered with WebGL at real-time in a browser. The major computations are done at the GPU with glsl shaders. The scene also consists of a simple textured landscape generated with simplex noise. There is also a GUI where the user can play around with a number of settings to change the scene during runtime.</p><p>This project was made as a part of the course TNM084 - Procedural Methods for Images, at Linköping University.</p>",
+    "skills": "<span class='technique'>Atmospheric scattering</span>, <span class='programming'>JavaScript</span>, <span class='technique'>Procedural methods</span>, <span class='programming'>Three.js</span>",
+    "category": "WebGL, procedural methods",
+    "duration": "Jan 2018", 
+    "links": "<a href='lists/TNM084.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/adamalsegard/ProceduralAtmosphere' target='_blank'>Source code</a><br><a href='https://adamalsegard.github.io/ProceduralAtmosphere/' target='_blank'>Live demo</a>", 
+    "video": "<img class='img-rounded' src='../img/port-ProceduralAtmosphere.png' alt='Screenshot from the Procedural Atmosphere application.' />",
+    "show": "true"
+  },
+  
+  {
+    "title":"Shattering Wood", 
+    "description": "<p>This project consists of a couple of short scripts written in Python to produce Voronoi shattering in Maya 2017. The aim was to reproduce the characteristic shattering of wooden logs but the scripts can be used to simulate shattering of most materials, especially brittle materials like glass and concrete, with just a few tweaks of the parameters.</p><p>This project was made as a part of TNCG13 - SFX: Tricks of the Trade, at Linköping University.</p><p>Another part of the course was to find state-of-the-art techniques in computer graphics and write an essay where you compared a few technical papers in that area. My essays can be found in the link section.</p><p>Essay 1 is about fracturing wood, especially how one can simulate the fibers in the fracturing.</p><p>Essay 2 present different techniques for rendering fur.</p><p>Essay 3 compares methods for simulating honey and other viscous fluids.</p>",
+    "skills": "<span class='programming'>Python</span>, <span class='program'>Maya</span>, <span class='technique'>Physics simulation</span>",
+    "category": "Maya scripting",
+    "duration": "Dec 2017", 
+    "links": "<a href='lists/TNCG13-project.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/adamalsegard/ShatteringWood' target='_blank'>Source code</a><br><a href='lists/TNCG13-essay1.pdf' target='_blank'>Essay 1</a><br><a href='lists/TNCG13-essay2.pdf' target='_blank'>Essay 2</a><br><a href='lists/TNCG13-essay3.pdf' target='_blank'>Essay 3</a>", 
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/XCkSaiVaj4M' frameborder='0' allowfullscreen='true'></iframe></div>",
+    "show": "true"
+  },
+
+  {
     "title":"AI-maze me", 
     "description": "<p>A maze solving game made for web browsers. An AI agent has been trained with feature based Q-learning to solve generic mazes with multiple materials. Most other implementations of Q-learning for maze solving associates a state with a placement in the maze. This project instead associates a state as a set of features, that represents what the agent 'sees', and can therefore solve randomly generated mazes with more ease.</p><p>The application has 3 different modes. Either the user can play manually, watch a trained AI agent solve the generated mazes or the user can play against an AI agent and try to beat it over a combination of 10 levels.</p><p>The mazes are generated with a modified backtracking algorithm. The player has an energy resource that decreases with every step, if the players goes through a material more energy is subtracted. The player has to find the way out from the maze before all energy is drained. The application is implemented in JavaScript with rendering in WebGL. Three.js is used for the graphics and Cannon.js for the physics.</p><p>This project was made in TNM095 - Artificial Intelligence for Interactive Media, at Linköping University.</p>",
     "skills": "<span class='programming'>JavaScript</span>, <span class='technique'>Q-Learning</span>, <span class='programming'>Three.js</span>, <span class='programming'>Cannon.js</span>",
@@ -18,7 +40,7 @@
     "category": "web",
     "duration": "Mars - May 2017", 
     "links": "<a href='lists/CS3249.pdf' target='_blank'>Project report (English)</a><br>", 
-    "video": "<img class='img-rounded' src='../img/ETiCCS.png' alt='Screenshot from the ETiCCS application' />",
+    "video": "<img class='img-rounded' src='../img/port-ETiCCS.png' alt='Screenshot from the ETiCCS application.' />",
     "show": "true"
   },
 
@@ -69,7 +91,7 @@
   {
     "title":"'Head below water'", 
     "description": "<p>A 3D fluid simulation done in real-time. The physical simulation was based on the Smoothed Particle Hydrodynamics (SPH) method. Calculations and rendering were done on the GPU with OpenCL and OpenGL/GLSL respectively. The rendering used the method 'screen-space point splatting' for the surface. Myself and another group member worked on the rendering (among other things). We tried a couple of different methods before settling for the one mentioned above, one of which used tessellation shaders. In the end we couldn't get a coherent normal for the surface (calculated by mean curvature flow) before the deadline which is the reason the video doesn't show all implemented pipelining steps.</p><p> In the end ~20.000 particles could be simulated and rendered in 60 fps on a Nvidia GeForce GTX 750.</p><p>The project was nominated in the category <span class='prize'>'Technical Excellence' at CAwards 2016</span>.</p>",
-    "skills": "<span class='technique'>OpenGL rendering pipeline</span>, <span class='programming'>GLSL shaders</span>, <span class='programming'>OpenCL</span>",
+    "skills": "<span class='technique'>OpenGL rendering pipeline</span>, <span class='programming'>GLSL shaders</span>, <span class='technique'>Physics simulation</span>, <span class='programming'>OpenCL</span>",
     "category": "rendering, simulation",
     "duration": "Jan - Mars 2016", 
     "links": "<a href='lists/TNM085.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/Hedlundaren/vattenoverhuvudet' target='_blank'>Source code</a>", 
@@ -84,7 +106,7 @@
     "category": "prototyping",
     "duration": "Sept 2015", 
   	"links": "<a href='http://eastswedenhack.se/esh15/prisutdelning-2015' target='_blank'>East Sweden Hack - Presentation</a>", 
-  	"video": "<img class='img-rounded' src='../img/Trygga.png' alt='Screenshot Trygga website' />",
+  	"video": "<img class='img-rounded' src='../img/port-Trygga.png' alt='Screenshot Trygga website.' />",
     "show": "true"
 	},
 
@@ -95,7 +117,7 @@
     "category": "web",
     "duration": "Sept - Oct 2015",
     "links": "<a href='https://github.com/codingInSpace/reverbify' target='_blank'>Source code</a><br><a href='../lists/TFYA65.pdf' target='_blank'>Project report (Swedish) </a>",
-  	"video": "<img class='img-rounded' src='../img/Reverbify_2.png' alt='Screenshot Reverbify website' />",
+  	"video": "<img class='img-rounded' src='../img/port-Reverbify_2.png' alt='Screenshot Reverbify website.' />",
     "show": "false"
 	},
 
@@ -150,7 +172,7 @@
     "category": "web",
     "duration": "Nov - Dec 2013", 
   	"links": "<a href='http://www.student.itn.liu.se/~adaal265/TNMK30/Projekt/Legomania-master/Legomania-master/main.php' target='_blank'>Check it out!</a><br><a href='../lists/TNMK30.pdf' target='_blank'>Project report (Swedish)</a>", 
-  	"video": "<img class='img-rounded' src='../img/Legomania.png' alt='Screenshot Legomania website' />",
+  	"video": "<img class='img-rounded' src='../img/port-Legomania.png' alt='Screenshot Legomania website.' />",
     "show": "false"
 	}, 
       
@@ -160,7 +182,7 @@
     "skills": "<span class='technique'>Film making</span>, <span class='personal'>Team work</span>",
     "category": "film",
     "duration": "Aug 2012 - May 2013", 
-    "links": "<a href='https://vimeo.com/adamalsegard' target='_blank'>Check out my vimeo channel!</a><br><a href='https://www.youtube.com/user/questisiones/videos' target='_blank'>And my youtube channel</a>", 
+    "links": "<a href='https://vimeo.com/adamalsegard' target='_blank'>Vimeo channel!</a><br><a href='https://www.youtube.com/user/questisiones/videos' target='_blank'>Youtube channel</a>", 
     "video": "",
     "show": "false"
   }]
