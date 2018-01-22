@@ -2,8 +2,8 @@
 "records": [
   {
     "title":"Procedural Atmosphere", 
-    "description": "<p>A procedural coding project where an atmosphere is simulated with Rayleigh- and Mie-scattering and rendered with WebGL at real-time in a browser. The major computations are done at the GPU with glsl shaders. The scene also consists of a simple textured landscape generated with simplex noise. There is also a GUI where the user can play around with a number of settings to change the scene during runtime.</p><p>This project was made as a part of the course TNM084 - Procedural Methods for Images, at Linköping University.</p>",
-    "skills": "<span class='technique'>Atmospheric scattering</span>, <span class='programming'>JavaScript</span>, <span class='technique'>Procedural methods</span>, <span class='programming'>Three.js</span>",
+    "description": "<p>A procedural coding project where an atmosphere is simulated with Rayleigh- and Mie-scattering and rendered with WebGL at real-time in a browser. The major computations are done at the GPU with GLSL shaders. The scene also consists of a simple textured landscape generated with simplex noise. There is also a GUI where the user can play around with a number of settings to change the scene during runtime.</p><p>This project was made as a part of the course TNM084 - Procedural Methods for Images, at Linköping University.</p>",
+    "skills": "<span class='programming'>JavaScript</span>, <span class='technique'>Atmospheric scattering</span>, <span class='programming'>GLSL</span>, <span class='technique'>Procedural methods</span>, <span class='programming'>Three.js</span>",
     "category": "WebGL, procedural methods",
     "duration": "Jan 2018", 
     "links": "<a href='lists/TNM084.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/adamalsegard/ProceduralAtmosphere' target='_blank'>Source code</a><br><a href='https://adamalsegard.github.io/ProceduralAtmosphere/' target='_blank'>Live demo</a>", 
