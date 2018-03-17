@@ -436,7 +436,11 @@ function calculateFeatures(pos) {
     features[idx++] = getMaterialAtEnd(dir, pos);
     features[idx++] = getVisited(dir, pos);
   });
-  features[idx] = calcGoalDist(pos);
+  // Special fix for agent without full knowledge!
+  if(agentIndex != 2) {
+    features[idx] = calcGoalDist(pos);
+  }
+  
 }
 
 // Return the state index corresponding to this set of features.
@@ -455,7 +459,9 @@ function getStateFromFeatures(currentFeatures) {
   if (currentFeatures[9] > 0) stateIndex += 512; // Free spaces downwards
   if (currentFeatures[10] == 2) stateIndex += 1024; // Brick at end
   if (currentFeatures[11]) stateIndex += 2048; // Direction visited
-  if (currentFeatures[12] < earlierDistance) stateIndex += 4096; // Do we increase or decrease the distance to goal?
+  // Special fix for agent without full knowledge!
+  // Do we increase or decrease the distance to goal?
+  if (agentIndex != 2 && currentFeatures[12] < earlierDistance) stateIndex += 4096; 
 
   return stateIndex;
 }
