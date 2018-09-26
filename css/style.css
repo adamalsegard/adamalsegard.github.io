@@ -110,7 +110,13 @@ a:hover {
 
 #about{
   margin: auto;
-  width: 80%;
+  width: 82%;
+}
+#about a {
+  color: #cca300;
+}
+#about a:hover{
+  color: #7e7e7e;
 }
 
 #about .panel-body {

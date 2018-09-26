@@ -1,13 +1,23 @@
 {
 "records": [
   {
+    "title":"My master thesis project", 
+    "description": "<p>As my master thesis project in computer science I worked on developing the open source project OpenSpace, which is a collaboration between NASA, American Museum of National History, Linköping University and a few others. OpenSpace is a free software aimed to visualize space research, especially in dome theaters (planetariums).<p></p>My thesis project focused on integrating 1,7 billion stars from the second data release (DR2) from ESA's ongoing Gaia mission. By developing an out-of-core rendering technique where data was streamed from disk during runtime I was able to run the complete dataset on both desktop PCs (with single CPU and GPU) and on a cluster of computers in planetariums.<p></p>Several optimizations to the rendering pipeline was made including how to fetch data from disk, how to stream stars to the GPU and how to render the stars. The user could also switch between different rendering methods during runtime as well as filter the stars both in runtime and offline as a preprocessing step.<p></p>The project was successful and at the end of my thesis I was invited to New York City to the Gaia Sprint 2018 where 100 astronomers gathered to find new science in the released data. As part of the sprint an event was held at the Hayden Planetarium at the American Museum of Natural History where they used OpenSpace with my implementations to show several subsets of Gaia DR2 to the astronomers. The biggest subset had 920 million stars. We also turned time on for the 7,2 million stars with measured velocity and could see how they moved through space.<p>",
+    "skills": "<span class='programming'>OpenGL 4.6</span>, <span class='technique'>astrophysical visualization</span>, <span class='programming'>C++17</span>, <span class='personal'>Planning and implementing a large-scale project</span>,",
+    "category": "large-scale astro-visualization",
+    "duration": "Jan - June 2018", 
+    "links": "<a href='http://liu.diva-portal.org/smash/get/diva2:1247648/FULLTEXT01.pdf' target='_blank'>Thesis report (English)</a><br><a href='https://github.com/OpenSpace/OpenSpace/tree/feature/gaia-mission' target='_blank'>Source code</a>", 
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/U5ZgANInwNM' frameborder='0' allowfullscreen='true'></iframe></div>",
+    "show": "true"
+  },  
+  {
     "title":"Procedural Atmosphere", 
-    "description": "<p>A procedural coding project where an atmosphere is simulated with Rayleigh- and Mie-scattering and rendered with WebGL at real-time in a browser. The major computations are done at the GPU with GLSL shaders. The scene also consists of a simple textured landscape generated with simplex noise. There is also a GUI where the user can play around with a number of settings to change the scene during runtime.</p><p>This project was made as a part of the course TNM084 - Procedural Methods for Images, at Linköping University.</p>",
+    "description": "<p>A procedural coding project where an atmosphere is simulated with Rayleigh- and Mie-scattering and rendered with WebGL at real-time in a browser. The major computations are done at the GPU with GLSL shaders. The scene also consists of a simple textured landscape generated with simplex noise. There is also a GUI where the user can play around with a number of settings to change the scene during runtime.</p><p>This project was made as a part of the course TNM084 - Procedural Methods for Images, at Linköping University.</p><p>At CAwards 2018 this project was <span class='prize'>nominated</span> in the category 'Best Research Project'.</p>",
     "skills": "<span class='programming'>JavaScript</span>, <span class='technique'>Atmospheric scattering</span>, <span class='programming'>GLSL</span>, <span class='technique'>Procedural methods</span>, <span class='programming'>Three.js</span>",
     "category": "WebGL, procedural methods",
     "duration": "Jan 2018", 
     "links": "<a href='lists/TNM084.pdf' target='_blank'>Project report (English)</a><br><a href='https://github.com/adamalsegard/ProceduralAtmosphere' target='_blank'>Source code</a><br><a href='https://adamalsegard.github.io/ProceduralAtmosphere/' target='_blank'>Live demo</a>", 
-    "video": "<img class='img-rounded' src='../img/port-ProceduralAtmosphere.png' alt='Screenshot from the Procedural Atmosphere application.' />",
+    "video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/DxnBfEcwe6k' frameborder='0' allowfullscreen='true'></iframe></div>",
     "show": "true"
   },
   
@@ -24,7 +34,7 @@
 
   {
     "title":"AI-maze me", 
-    "description": "<p>A maze solving game made for web browsers. An AI agent has been trained with feature based Q-learning to solve generic mazes with multiple materials. Most other implementations of Q-learning for maze solving associates a state with a placement in the maze. This project instead associates a state as a set of features, that represents what the agent 'sees', and can therefore solve randomly generated mazes with more ease.</p><p>The application has 3 different modes. Either the user can play manually, watch a trained AI agent solve the generated mazes or the user can play against an AI agent and try to beat it over a combination of 10 levels.</p><p>The mazes are generated with a modified backtracking algorithm. The player has an energy resource that decreases with every step, if the players goes through a material more energy is subtracted. The player has to find the way out from the maze before all energy is drained. The application is implemented in JavaScript with rendering in WebGL. Three.js is used for the graphics and Cannon.js for the physics.</p><p>This project was made in TNM095 - Artificial Intelligence for Interactive Media, at Linköping University.</p>",
+    "description": "<p>A maze solving game made for web browsers. An AI agent has been trained with feature based Q-learning to solve generic mazes with multiple materials. Most other implementations of Q-learning for maze solving associates a state with a placement in the maze. This project instead associates a state as a set of features, that represents what the agent 'sees', and can therefore solve randomly generated mazes with more ease.</p><p>The application has 3 different modes. Either the user can play manually, watch a trained AI agent solve the generated mazes or the user can play against an AI agent and try to beat it over a combination of 10 levels.</p><p>The mazes are generated with a modified backtracking algorithm. The player has an energy resource that decreases with every step, if the players goes through a material more energy is subtracted. The player has to find the way out from the maze before all energy is drained. The application is implemented in JavaScript with rendering in WebGL. Three.js is used for the graphics and Cannon.js for the physics.</p><p>This project was made in TNM095 - Artificial Intelligence for Interactive Media, at Linköping University.</p><p>At CAwards 2018 it won <span class='prize'>First Prize</span> in the category 'Technical Excellence' and was <span class='prize'>nominated</span> in the category 'Next Audience Magnet'.</p>",
     "skills": "<span class='programming'>JavaScript</span>, <span class='technique'>Q-Learning</span>, <span class='programming'>Three.js</span>, <span class='programming'>Cannon.js</span>",
     "category": "AI, web",
     "duration": "Sept - Oct 2017", 
@@ -140,7 +150,7 @@
     "duration": "April - May 2015", 
   	"links": "<a href='https://github.com/Danielbook/3D_Projekt' target='_blank'>Source code</a><br><a href='lists/TNM061.pdf' target='_blank'>Project report (Swedish)</a>", 
   	"video": "",
-    "show": "true"
+    "show": "false"
 	},
 
   {
