@@ -19,7 +19,6 @@ html, body {
  /* needed for container min-height */
 }
 
-/* padded section */
 .pad-section {
   padding: 100px 0;
 }
@@ -93,9 +92,7 @@ a:hover {
   background-size: cover;
   padding-top: 50px;
 }
-
 #home .icons{
-  /*display: table-row;*/
   padding: 5px;
   line-height: 30px;
   margin: auto;
@@ -118,7 +115,6 @@ a:hover {
 #about a:hover{
   color: #7e7e7e;
 }
-
 #about .panel-body {
   background-color: #262612;
   color: #ffffff;
@@ -128,22 +124,10 @@ a:hover {
 }
 
 #sec3 .bcg{
-  /* //If I want a pic as slide
-  background: url(../img/slide-1.jpg) no-repeat center center scroll; 
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-  
   background: #262422;
   height: 130px;
   text-align: center;
 }
-
 
 #portfolio {
   background: url(../img/bg_pic-2-1200.jpg) no-repeat center center fixed; 
@@ -165,7 +149,6 @@ a:hover {
 #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h5 {
   color: #993D00;
 }
-
 #portfolio p{
   color: #DEDEDE;
 }
@@ -200,17 +183,6 @@ a:hover {
 }
 
 #sec5 .bcg{
-  /* //If I want a pic as slide
-  background: url(../img/slide-2.jpg) no-repeat center center scroll; 
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-
   background: #480000;
   height: 130px;
   text-align: center;
@@ -236,7 +208,6 @@ a:hover {
 #commitments h2, #commitments h3, #commitments h4, #commitments h5 {
   color: #BF9300;
   text-shadow: 1px 0px 4px #000000;
-  /* color: #c7c7c7; */
 }
 #commitments p {
   color: #DEDEDE;
@@ -262,7 +233,6 @@ a:hover {
 }
 #engagemang h2, #engagemang h3, #engagemang h4, #engagemang h5 {
   color: #1C1C1C;
-  /* color: #c7c7c7; */
 }
 #engagemang p {
   color: #DEDEDE;
@@ -275,17 +245,6 @@ a:hover {
 }
 
 #sec7 .bcg{
-  /* //If I want a pic as slide
-  background: url(../img/slide-3.jpg) no-repeat center center scroll; 
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-
   background: #00376E;
   height: 130px;
   text-align: center;
@@ -316,8 +275,3 @@ a:hover {
 footer {
   padding: 20px 0;
 }
-
-
-
-
-
