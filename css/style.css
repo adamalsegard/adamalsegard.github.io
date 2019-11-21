@@ -26,6 +26,10 @@ html, body {
   width: 100%;
 }
 
+p {
+  font-size: medium;
+}
+
 a {
   color: #808080;
 }
@@ -92,12 +96,6 @@ a:hover {
   background-size: cover;
   padding-top: 50px;
 }
-#home .icons{
-  padding: 5px;
-  line-height: 30px;
-  margin: auto;
-
-}
 #home a {
   color: #303030;
 }
@@ -117,7 +115,7 @@ a:hover {
 }
 #about .panel-body {
   background-color: #262612;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #about h2 {
   color: #993D00;
@@ -140,11 +138,11 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #portfolio .panel-body {
   background-color: #262422;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h5 {
   color: #993D00;
@@ -166,11 +164,11 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   background-color: #FFAA70;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #portfoliohtml .panel-body {
   background-color: #262422;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #portfoliohtml h2, #portfoliohtml h3, #portfoliohtml h4, #portfoliohtml h5 {
   color: #993D00;
@@ -199,11 +197,11 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #commitments .panel-body {
   background-color: #480000;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #commitments h2, #commitments h3, #commitments h4, #commitments h5 {
   color: #BF9300;
@@ -229,7 +227,7 @@ a:hover {
 }
 #engagemang .panel-body {
   background-color: #0086A1;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #engagemang h2, #engagemang h3, #engagemang h4, #engagemang h5 {
   color: #1C1C1C;
@@ -262,14 +260,14 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   background-color: #FFAA70;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #contact .panel-body {
   background-color: #00376E;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 #contact h2, #contact h4 {
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 footer {

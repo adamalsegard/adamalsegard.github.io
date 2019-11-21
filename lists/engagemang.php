@@ -13,7 +13,7 @@
 
   {
     "title":"Teaching Assistant", 
-    "description": "<p>I was a teaching assistant for 2 different C++ programming courses.</p><p>During HT1 for the first year students in the course TND012 - Foundations of Programming and during HT2 for second year students in TNG033 - C++ Programming.</p><p>The work entailed being responsible for a total of 16 lab sessions á 4 hours.</p>",
+    "description": "<p>I was a teaching assistant for two different C++ programming courses.</p><p>During HT1 for the first year students in the course TND012 - Foundations of Programming and during HT2 for second year students in TNG033 - C++ Programming.</p><p>The work entailed being responsible for a total of 16 lab sessions á 4 hours.</p>",
     "skills": "C++ programming, teaching, communication",
     "duration": "Aug 2017 - Dec 2017", 
     "volunteer": "employment",
@@ -35,18 +35,18 @@
 
   {
     "title":"Ambassador CAwards", 
-    "description": "<p>As a student ambassador for CAwards I was part of a team that promoted CAwards to students at different universities.</p>",
+    "description": "<p>C Awards is an annual national competition for visualization projects where students compete with projects they've developed at University or during their spare time. CAwards is organized by the Visualization Center C in Norrköping.</p><p>As an ambassador I promoted CAwards for student at different universities in Sweden and encouraged them to apply with their projects.</p>",
     "skills": "marketing, public relations",
     "duration": "Jan - April 2016", 
     "volunteer": "volunteer",
     "links": "<a href='http://www.cawards.se/' target='_blank'>CAwards's website</a>", 
     "video": "",
-    "show": "true"
+    "show": "false"
   },
 
   {
 	  "title":"Form teacher (Klassföreståndare)", 
-    "description": "<p>As a form teacher I was employed by Linköping University to guide the new MT-students during the first few months of their first semester. In total I held 6 lectures where I taught everything from how to use the 'student portal' to different study techniques. During the welcoming period I also participated in most activities as to gain my students' trust, which I feel I did. It was lots of fun.</p>",
+    "description": "<p>As a form teacher I was employed by Linköping University to guide a new class of MT-students during their first few months at the university. In total I held 6 session á 2 hours where I taught everything from how to use the 'student portal' to different study techniques, as well as playing a few ice breaking and social games. During this time, and the following months, I acted as a mentor for the new students and tried to gain their trust. Which I feel that I did.</p>",
   	"skills": "leadership, teaching, responsibility, organization",
     "duration": "July - Oct 2015",
     "volunteer": "employment", 
@@ -90,7 +90,7 @@
 
   {
     "title":"Mathematics tutor", 
-    "description": "<p>I was a tutor for the new students in the first 3 courses in mathematics (Foundations in Math, Linear Algebra and Calculus I). As a tutor I held a math class about once a week and answered the students' questions and demonstrated solutions on the white board.</p>",
+    "description": "<p>Mathematics tutor for the new students in the first three courses in mathematics (Foundation in Math, Linear Algebra and Calculus I). As a tutor I was responsible for a math class about once a week and answered the students questions and demonstrated solutions on the white board.</p>",
     "skills": "teaching, explaining, communication",
     "duration": "Aug 2014 - Mars 2015", 
     "volunteer": "employment",
@@ -134,7 +134,7 @@
 
   {
     "title":"CISV JC", 
-    "description": "<p>CISV (Children's International Summer Villages) is an organisation with a peaceful world as a vision. To reach this goal they arrange a bunch of different gatherings. One, the original, is a summer village for eleven year old children from twelve different countries who come and live and play together for a month. Each country send a delegation of two girls and two boys and a leader. Then there are six junior counselors (JC's) as well. As JC you participate in the planning och leading of activities together with the rest of the leaders. I was also in charge of the Swedish delegation one weekend when the original leader was away. </p>",
+    "description": "<p>CISV (Children's International Summer Villages) is an organisation with a peaceful world as a vision. To reach this goal they arrange a bunch of different gatherings. One, the original, is a summer village for 11 year old children from twelve different countries who come and live and play together for a month. Each country send a delegation of two girls, two boys and a leader. Then there are six junior counselors (JC's) from all over the world as well. Along with a core staff of five adults from the hosting city. As JC you participate in the planning och leading of activities together with the rest of the leaders.</p><p>I went to one of these villages when I was 11 years old, in Odense Denmark.</p><p>When I was 16 I worked as a junior leader (JC) at another camp in Stockholm, Sweden.</p><p>Along with my other duties I was also responsible for the Swedish delegation one weekend when the original leader was away for a personal matter.</p>",
     "skills": "leadership, openness, social relations, mindfulness",
     "duration": "Summer 2008", 
     "volunteer": "volunteer",
@@ -189,7 +189,7 @@
 
   {
     "title":"Confirmation leader", 
-    "description": "<p>I was a junior leader for a confirmation group at the Swedish Church in Jönköping (Svenska Kyrkan Jönköping, Sofia församling). Each year we went on a 10-day canoe-trip in the wilderness of northern Sweden. No electronics were allowed and we brought all the food and equipment we needed. We were usually about 100 people, all in all. There was also a week-long (civilized) camp in the end of the summer.</p>",
+    "description": "<p>I was a junior leader ('assistant') for a confirmation group at the Swedish Church in Jönköping (Sofia församling) called 'The Wilderness Group'.</p><p>Each year we went on a 10-day canoe-trip in the wilderness of northern Sweden. No electronics were allowed and we brought all the food and equipment we needed with us. We were usually about 100 people, all in all. There was also a week-long (civilized) camp in the end of the summer.</p><p>After my year as a participant I spent three years as an assistant.</p>",
     "skills": "leadership, survival skills, canoeing",
     "duration": "Sept 2007 - Sept 2010", 
     "volunteer": "volunteer",

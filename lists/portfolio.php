@@ -161,7 +161,7 @@
     "duration": "Nov - Dec 2014", 
   	"links": "<a href='https://github.com/Danielbook/TNM040-KOMA-Projekt' target='_blank'>Source code</a><br><a href='lists/TNM040.pdf' target='_blank'>Project report (Swedish)</a>", 
   	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/crZpxgsYBw8' frameborder='0' allowfullscreen='true'></iframe></div>",
-    "show": "true"
+    "show": "false"
   },
 
   {
@@ -172,7 +172,7 @@
     "duration": "Okt - Dec 2013", 
   	"links": "<a href='growth/old/index.html' target='_blank'>Website 1</a><br><a href='growth/index.html' target='_blank'>Website 2 (by Benjamin Wiberg)</a><br><a href='lists/TNM088.pdf' target='_blank'>Project report (Swedish)</a>", 
   	"video": "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://player.vimeo.com/video/85702031' frameborder='0' allowfullscreen='true'></iframe></div>",
-    "show": "true"
+    "show": "false"
   }, 
   	  
   {
