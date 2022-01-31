@@ -1,7 +1,0 @@
-Notes:
-
- * 2014.legionen.nu - Doesn't work because they changed platform temporarely, hopefully it will be fixed soon.
- * 2016.medieteknikdagarna.se - The same goes for this site.
- * *-meteor.com - Removed trygga.meteor.com and reverbify.meteor.com because Meteor changed to payed access and cut support to all free apps.
-
- TODO: Place other git projects as submodules instead!?

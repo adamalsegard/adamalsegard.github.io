@@ -1,0 +1,95 @@
+/**
+* www.alsegard.se
+* www.alsegard.com
+*/
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arvo"), url(https://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff");
+}
+
+/** GENERAL STYLES **/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+ /* needed for container min-height */
+}
+
+.card-body {
+    background-color: #4d4d4d;
+    border-color: #202020;
+    border-radius: 1ch;
+    padding: 1ch;
+}
+
+h2 {
+    color: #B3B3B3;
+    text-shadow: 1px 1px 0px #000000; /* Horizontal, Vertical, Radius */
+}
+p {
+  font-size: medium;
+  color: #E6E6E6; /* HSV: 0, 0%, 90% */
+}
+a, .light-link {
+  color: #A6A6A6; /* HSV: 0, 0%, 65% */
+}
+a:hover, .light-link:hover {
+  color: #DADADA; /* HSV: 0, 0%, 85% */
+}
+.dark {
+  color: #808080; /* HSV: 0, 0%, 50% */
+}
+.dark-link {
+  color: #666666; /* HSV: 0, 0%, 40% */
+}
+.dark-link:hover {
+  color: #B3B3B3; /* HSV: 0, 0%, 70% */
+}
+
+
+/* MAIN PAGES*/
+#main_dot_se {
+  background: url(../img/bg_dot_se.jpg) no-repeat center center fixed;
+  min-height: 95%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 95vh; /* These two lines are counted as one :-)       */
+  min-width: 100%;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  overflow: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main_dot_com {
+    background: url(../img/bg_dot_com.jpg) no-repeat center center fixed;
+    min-height: 95%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 95vh; /* These two lines are counted as one :-)       */
+    min-width: 100%;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    overflow: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+footer {
+  height: 5vh;
+  padding: 1em 0;
+}
